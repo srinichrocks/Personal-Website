@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Grid } from 'theme-ui';
+import { Container} from 'theme-ui';
 import SectionHeader from '../components/section-header';
 
-export default function KeyFeature() {
+export default function AboutMe() {
   return (
    <section sx = {{variant: "section.keyFeature"}}id = "about-me">
      <Container>

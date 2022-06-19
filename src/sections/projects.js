@@ -10,7 +10,7 @@ import {BiFace} from 'react-icons/bi';
 const data = [
   {
     id: 1,
-    imgSrc: <TiSortAlphabeticallyOutline size = {70}/>,
+    imgSrc: <TiSortAlphabeticallyOutline size = {70} key = "alphabet"/>,
     altText: 'Alphabet Game',
     title: 'Alphabet Game',
     text:
@@ -18,7 +18,7 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: <TiCalculator size = {70}/>,
+    imgSrc: <TiCalculator size = {70} key = "calc"/>,
     altText: 'RPN Calculator',
     title: 'RPN Calculator',
     text:
@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: <FiGithub size = {70}/>,
+    imgSrc: <FiGithub size = {70} key = "git"/>,
     altText: 'Github Lite',
     title: 'Github Lite',
     text:
@@ -64,7 +64,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: <BiFace size = {70}/>,
+    imgSrc: <BiFace size = {70} key = "face"/>,
     altText: 'Facial Recognition System',
     title: 'Facial Recognition System',
     text:
@@ -76,7 +76,7 @@ const data = [
   },
 ];
 
-export default function KeyFeature() {
+export default function Projects() {
   return (
    <section sx = {{variant: "section.keyFeature"}}id = "projects">
      <Container>
