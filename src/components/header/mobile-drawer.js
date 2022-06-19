@@ -56,12 +56,7 @@ export default function MobileDrawer() {
               <Box sx = {styles.social}>
                 {social.map((socialItem,i) => (
                   <Box as = "span" key = {i} sx = {styles.social.icon}>
-                    {/* <Link to = {socialItem.path}>
-                      {socialItem.icon}
-                    </Link> */}
                     <a href={socialItem.path} rel={"noreferrer"} target={"_blank"}>{socialItem.icon}</a>
-
-
                     </Box>
                 ))}
               </Box>

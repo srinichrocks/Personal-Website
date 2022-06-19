@@ -158,7 +158,7 @@ export default function Skills() {
    <section id = "skills" sx = {{variant: 'section.testimonial'}}>
      <Container css = {{textAlign: 'center'}}>
       <SectionHeader 
-      slogan = "What can I do for you"
+      slogan = "What I can do for you"
       title = "Skills"
       />
      </Container>

@@ -41,7 +41,7 @@ export default function Banner() {
             srinidhi raghavendran
           </Heading>
           <Text as= "p" variant = "heroSecondary">
-          A UC Berkeley Student pursing a double major in Computer Science and Data Science
+          A UC Berkeley student pursing a double major in Computer Science and Data Science
           </Text>
           <Box sx = {styles.social}>
           {social.map((socialItem,i) => (
