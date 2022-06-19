@@ -14,7 +14,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="Sri Personal Website" />
+          <SEO title="Srinidhi Raghavendran" />
           <Home />
           <AboutMe />
           <CourseWork />
