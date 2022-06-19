@@ -84,15 +84,18 @@ export default function Projects() {
        title = "Projects"
        />
        <Grid sx = {styles.grid}>
-         {data.map((item) => (item.imgSrc))}
         {data.map((item) => (
+          <center>
+            <section sx>
+            {item.imgSrc}
           <FeatureCardColumn
           key = {item.id}
-          // src = {item.imgSrc}
           alt = {item.altText}
           title = {item.title}
           text = {item.text}
           />
+          </section>
+          </center>
         ))}
        </Grid>
      </Container>
