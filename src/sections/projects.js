@@ -88,12 +88,14 @@ export default function Projects() {
           <center>
             <section sx>
             {item.imgSrc}
+          <center>
           <FeatureCardColumn
           key = {item.id}
           alt = {item.altText}
           title = {item.title}
           text = {item.text}
           />
+          </center>
           </section>
           </center>
         ))}
