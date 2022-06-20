@@ -12,7 +12,7 @@ export default function Card({
     <Box sx = {styles.card}>
       <Box sx = {styles.wrapper}>
         <center>
-        <a href = {link}>
+        <a href = {link} rel={"noreferrer"} target={"_blank"}>
         <Heading sx = {styles.reviewCard}>
           {title}
         </Heading>
