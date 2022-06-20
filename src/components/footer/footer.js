@@ -1,29 +1,11 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Image, Text, Flex } from 'theme-ui';
-import { Link } from 'components/link';
-import menuItem from './footer.data';
 
 export default function Footer() {
   return (
     <footer sx = {styles.footer}>
       <Container>
         <Box sx = {styles.footer.footerBottomArea}>
-          {/* <Box sx = {styles.footer.menus}>
-            <nav>
-              {menuItem.map((item,i) =>(
-                <Link 
-                path = {item.path} 
-                spy = {true}
-                smooth = {true}
-                key = {i}
-                label = {item.label}
-                sx = {styles.footer.link}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-            </Box> */}
             <Text sx = {styles.footer.copyright}>
               Copyright by {new Date().getFullYear()} Srinidhi Raghavendran
             </Text>

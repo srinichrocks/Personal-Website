@@ -2,7 +2,7 @@
 import { jsx } from 'theme-ui';
 import { Link } from 'react-scroll';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/try.jpg';
+import BannerImg from 'assets/sripic.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 import { FaLinkedinIn, FaGithub} from 'react-icons/fa';
