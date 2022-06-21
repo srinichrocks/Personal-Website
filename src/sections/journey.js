@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Heading } from 'theme-ui';
 import { Container} from 'theme-ui';
-import { Chrono } from 'react-Chrono';
+import { Chrono } from 'react-chrono';
 import SectionHeader from 'components/section-header'
 // import BannerImg from 'assets/sripic.png';
 
