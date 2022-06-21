@@ -68,7 +68,7 @@ const items = [
     {
         title: "Ohlone College",
         cardTitle: "Ohlone College",
-        url: "https://foothill.edu/",
+        url: "https://www.ohlone.edu/",
         cardSubtitle:"Community College Courses",
         cardDetailedText: <Container>
             <p>Coursework:</p>
