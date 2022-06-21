@@ -24,9 +24,6 @@ export default function Header({ className }) {
             </Link>
           ))}
         </Flex>
-        {/* <Button className = "donate_btn" variant = "secondary" aria-label = "Resume" path = "resume">
-          Resume
-        </Button> */}
         <MobileDrawer>MobileDrawer</MobileDrawer>
         </Container>
       </header>

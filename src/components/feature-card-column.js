@@ -6,7 +6,8 @@ export default function Card({
   altText = 'default alt text',
   title,
   text,
-  link
+  link,
+  languages
 }) {
   return (
     <Box sx = {styles.card}>
@@ -17,6 +18,11 @@ export default function Card({
           {title}
         </Heading>
         </a>
+        <Text sx = {styles.wrapper.languages}>
+        <em>
+        {languages}
+          </em>
+          </Text>
         </center>
         <Text sx = {styles.wrapper.subTitle}>
           {text}
@@ -59,6 +65,10 @@ const styles = {
       fontWeight: 400,
       lineHeight: '1.9',
     },
+    languages: {
+      color: "purple",
+      fontWeight: "bold"
+    }
   },
   reviewCard: {
     boxShadow: '0px 0px 1px rgba(38, 78, 118, 0.35)',

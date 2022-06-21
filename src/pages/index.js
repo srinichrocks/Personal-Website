@@ -5,10 +5,11 @@ import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Home from '../sections/banner';
-import AboutMe from '../sections/about-me'
+import AboutMe from '../sections/about-me';
 import CourseWork from '../sections/projects';
 import Skills from '../sections/skills';
-import Resume from '../sections/resume'
+import Resume from '../sections/resume';
+import Journey from '../sections/journey';
 
 export default function IndexPage() {
   return (
@@ -19,6 +20,7 @@ export default function IndexPage() {
           <AboutMe />
           <CourseWork />
           <Skills />
+          <Journey />
           <Resume/>
         </Layout>
     </ThemeProvider>

@@ -7,9 +7,10 @@ import FeatureCardColumn from 'components/feature-card-column.js';
 import { TiCalculator, TiSortAlphabeticallyOutline} from 'react-icons/ti';
 import {FiGithub} from 'react-icons/fi';
 import {BiFace} from 'react-icons/bi';
-import {GiPistolGun} from 'react-icons/gi'
-import {AiOutlineCodepenCircle, AiOutlineBlock} from 'react-icons/ai'
+import {GiPistolGun, GiAnt} from 'react-icons/gi'
+import {AiOutlineCodepenCircle, AiOutlineBlock, AiOutlineShoppingCart} from 'react-icons/ai'
 import {RiParenthesesFill} from 'react-icons/ri'
+import {FaCat, FaDiceSix} from 'react-icons/fa'
 const data = [
   {
     id: 1,
@@ -18,10 +19,11 @@ const data = [
     title: 'Alphabet Game',
     text:
       <section>
-        <li>Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard.</li>,
-        <li>Employed Firebase to store game information for every unique user.</li>
+        <li>Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
+        <li>Employed Firebase to store game information for every unique user</li>
       </section>,
-    link: "//github.com/srinichrocks/AlphabetGame"
+    link: "//github.com/srinichrocks/AlphabetGame",
+    languages: "Java, JavaFX"
   
   },
   {
@@ -40,9 +42,10 @@ const data = [
       <li>multiplication</li>
       <li>division</li>
     </ul>
-    <li>Calculates using a postfix expression which is much easier for a computer to evaluate.</li>
+    <li>Calculates using a postfix expression which is much easier for a computer to evaluate</li>
     </section>,
-    link: "//github.com/srinichrocks/RPN-Assignment"
+    link: "//github.com/srinichrocks/RPN-Assignment",
+    languages: "Java"
   },
   {
     id: 3,
@@ -70,7 +73,8 @@ const data = [
         <li>diff</li>
           </ul>
       </section>,
-      link: "//github.com/srinichrocks/Gitlet"
+      link: "//github.com/srinichrocks/Gitlet",
+      languages: "Java"
   },
   {
     id: 4,
@@ -83,7 +87,8 @@ const data = [
       <li>Developed in Python using OpenCV library; Utilized Sobel and Laplace edge detection</li>
       <li>Created virtual environments and handled version issues through the use of Miniconda</li>
     </section>,
-    link: "//github.com/srinichrocks/FacialRecognitionSystem"
+    link: "//github.com/srinichrocks/FacialRecognitionSystem",
+    languages: "Python"
   },
   {
     id: 5,
@@ -95,7 +100,8 @@ const data = [
       <li>The Enigma machine that Germany used during World War II to encrypt its military communications</li>
       <li>Used encryption libraries and advanced algorithms</li>
     </section>,
-    link: "//github.com/srinichrocks/Enigma"
+    link: "//github.com/srinichrocks/Enigma",
+    languages: "Java"
   },
   {
     id: 6,
@@ -106,7 +112,8 @@ const data = [
     <section>
       <li>An interpreter identical in functionalities and design to that of the python programming language built using scheme</li>    
       </section>, 
-    link: "//github.com/srinichrocks/SchemeInterpreter"
+    link: "//github.com/srinichrocks/SchemeInterpreter",
+    languages: "Python, Scheme"
   },
   {
     id: 7,
@@ -118,7 +125,8 @@ const data = [
       <li>An interactive game where one is presented with a grid of square cells (initially empty) and a set of a number of pieces formed from configurations of blocks arranged to cover empty cells of the grid</li>
       <li>After each piece is placed, filled rows and columns are cleared and keep playing until no pieces can fit anywhere on board</li>
     </section>,
-    link: "//github.com/srinichrocks/Blocks"
+    link: "//github.com/srinichrocks/Blocks",
+    languages: "Java, JavaFX"
   },
   {
     id: 8,
@@ -130,8 +138,62 @@ const data = [
       <li>In order to truly figure out the real misconceptions behind mass shootings and the perpetrators of them, I decided to dive hands-on into a kaggle dataset of mass shootings from 2016-2021</li>
       <li>I aimed to figure out trends amongst the presence of mental health issues, race as well as the number of people affected in each shooting</li>
       <li>Utilized John Denero's notorious "datascience" library(used officially in UC Berkeley's curriculum as well) in order to conduct classification, regression tests and prediction on the dataset</li>
-    </section>
-  }
+    </section>,
+    languages: "Python"
+  },
+  {
+    id: 9,
+    imgSrc: <FaCat size = {70} key = "cats"/>,
+    altText: 'Cats Game',
+    title: 'Cats Game',
+    text:
+    <section>
+      <li>A game that measures typing speed and also has a typing autocorrect functionality to correct the spelling of a word after a user types it</li>
+      <li>Inspired by Typeracer</li>
+    </section>,
+    link: "//github.com/srinichrocks/CatsGame",
+    languages: "Python"
+  },
+  {
+    id: 10,
+    imgSrc: <GiAnt size = {70} key = "ants"/>,
+    altText: 'Ants Game',
+    title: 'Ants Game',
+    text:
+    <section>
+      <li>A tower defense game where multiple variations of ants must be purchased and set up appropriately in order to defend the queen ant from the bees</li>
+      <li>Inspired by Bloons Tower Defense</li>
+    </section>,
+    link: "//github.com/srinichrocks/AntsGame",
+    languages: "Python"
+  },
+  {
+    id: 11,
+    imgSrc: <FaDiceSix size = {70} key = "hogs"/>,
+    altText: 'Hog Game',
+    title: 'Hog Game',
+    text:
+    <section>
+      <li>An interactive game consisting of a simulator and multiple strategies for the dice game hog</li>
+      <li>Inspired by the dice game pig</li>
+    </section>,
+    link: "//github.com/srinichrocks/hog",
+    languages: "Python"
+  },
+  {
+    id: 12,
+    imgSrc: <AiOutlineShoppingCart size = {70} key = "shopping"/>,
+    altText: 'Shopping Cart',
+    title: 'Shopping Cart',
+    text:
+    <section>
+      <li>Built a shopping cart web application using React front-end library</li>
+    </section>,
+    link: "//github.com/srinichrocks/BasicReactProject",
+    languages: "JavaScript, HTML, CSS, React"
+  },
+  
+  
 ];
 
 export default function Projects() {
@@ -155,6 +217,7 @@ export default function Projects() {
           title = {item.title}
           text = {item.text}
           link = {item.link}
+          languages = {item.languages}
           />
           </center>
           </section>
