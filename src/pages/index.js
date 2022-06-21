@@ -20,8 +20,8 @@ export default function IndexPage() {
           <AboutMe />
           <CourseWork />
           <Skills />
-          <Resume/>
           <Journey />
+          <Resume />
         </Layout>
     </ThemeProvider>
   );

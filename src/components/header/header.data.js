@@ -16,11 +16,11 @@ export default [
     label: 'Skills',
   },
   {
-    path: 'resume',
-    label: 'Resume',
-  },
-  {
     path: 'journey',
     label: 'Journey'
+  },
+  {
+    path: 'resume',
+    label: 'Resume',
   }
 ];
