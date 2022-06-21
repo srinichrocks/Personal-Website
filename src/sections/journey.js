@@ -3,7 +3,7 @@ import { jsx, Heading } from 'theme-ui';
 import { Container} from 'theme-ui';
 import { Chrono } from 'react-Chrono';
 import SectionHeader from 'components/section-header'
-import BannerImg from 'assets/sripic.png';
+// import BannerImg from 'assets/sripic.png';
 
 const items = [
     {
