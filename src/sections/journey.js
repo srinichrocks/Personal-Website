@@ -9,7 +9,7 @@ const items = [
     {
         title: "Pratham Education Foundation Math Competition",
         cardTitle: "Pratham Education Foundation Math Competition",
-        url: "https://ihs-fusd-ca.schoolloop.com/",
+        url: "https://prathammath.weebly.com/",
         cardSubtitle:"President",
         cardDetailedText: <Container>
             <li>President of Pratham Math Competition, an annual competition held for 4th-8th graders with a focus middle school math competition problems</li>
@@ -19,7 +19,7 @@ const items = [
         media: {
             type: "IMAGE",
             source: {
-            url: "https://upload.wikimedia.org/wikipedia/en/a/aa/Irvington_High_School_Vikings_logo.png"
+            url: "https://media.glassdoor.com/sqll/539607/pratham-squarelogo-1432035127709.png"
             }
         }
     },
