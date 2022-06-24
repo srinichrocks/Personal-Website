@@ -269,11 +269,11 @@ const items = [
 
 export default function Journey() {
     return(
-        <section id = "journey">
+        <Container id = "journey">
             <SectionHeader 
       slogan = "My path through time"
       title = "Journey"/>
-            <Chrono items={items}  slideShow mode="VERTICAL_ALTERNATING"/>
-        </section>
+            <Chrono items={items} slideShow mode = "VERTICAL_ALTERNATING" enableOutline />
+        </Container>
     );
 }

@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container} from 'theme-ui';
+import { Container, Button} from 'theme-ui';
+import {Link} from 'react-scroll'
 import SectionHeader from '../components/section-header';
 
 export default function AboutMe() {
@@ -21,6 +22,18 @@ export default function AboutMe() {
        <br/>
        <text>In my free time, I play the guitar, basketball, videogames (and sleep). I also played in the USA minor league for Cricket and was in the top 50 for the USA u19 squad. If my interests align with yours, feel free to contact me at sraghavendran17@berkeley.edu. </text>
      <text>Below you can find some of the projects I have worked on as well as some of my skills and teaching resources. </text>
+     </Container>
+     <Container css = {{textAlign: 'center'}}>
+     <Link
+              activeClass='active'
+              to='projects'
+              spy={true}
+              smooth = {true}
+              offset = {-70}
+              duration = {500}
+            >
+              <Button variant = "secondary" path = "projects" color = "purple" smooth = {true} duration = {500} spy={true}>See my work!</Button>
+          </Link>
      </Container>
    </section>
   );

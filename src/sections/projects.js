@@ -202,6 +202,7 @@ export default function Projects() {
      <Container>
        <SectionHeader  
        title = "Projects"
+       slogan = "More to come!"
        />
        <Grid sx = {styles.grid}>
         {data.map((item) => (

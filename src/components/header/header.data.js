@@ -18,9 +18,5 @@ export default [
   {
     path: 'journey',
     label: 'Journey'
-  },
-  {
-    path: 'resume',
-    label: 'Resume',
   }
 ];

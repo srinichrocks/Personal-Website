@@ -50,8 +50,15 @@ export default function Banner() {
                     </Box>
                 ))}  
               </Box>
-          <Link to='about-me'>
-          <Button variant = "primary" path = "about-me" smooth = {true} duration = {500} spy={true}>About Me</Button>
+              <Link
+              activeClass='active'
+              to='about-me'
+              spy={true}
+              smooth = {true}
+              offset = {-70}
+              duration = {500}
+            >
+              <Button variant = "secondary" color = "purple" path = "about-me" smooth = {true} duration = {500} spy={true}>About Me</Button>
           </Link>
         </Box>
         <Box sx = {styles.banner.imageBox}>

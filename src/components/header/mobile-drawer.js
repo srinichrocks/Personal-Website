@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box } from 'theme-ui';
+import { Box, Button } from 'theme-ui';
 import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
@@ -51,6 +51,12 @@ export default function MobileDrawer() {
                 {menuItem.label}
               </Link>
             ))}
+            <Link to='resume' spy={true}
+                smooth = {true}
+                offset = {-70}
+                duration = {500}>
+          Resume
+          </Link>
           </Box>
           <Box sx = {styles.menuFooter}>
               <Box sx = {styles.social}>

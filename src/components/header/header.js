@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Flex} from 'theme-ui';
+import { jsx, Container, Flex, Button} from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import MobileDrawer from './mobile-drawer';
@@ -23,6 +23,16 @@ export default function Header({ className }) {
               {menuItem.label}
             </Link>
           ))}
+          <Link
+              activeClass='active'
+              to='resume'
+              spy={true}
+              smooth = {true}
+              offset = {-70}
+              duration = {500}
+            >
+              <Button variant = "primary" path = "resume" smooth = {true} duration = {500} spy={true}>Resume</Button>
+            </Link>
         </Flex>
         <MobileDrawer>MobileDrawer</MobileDrawer>
         </Container>

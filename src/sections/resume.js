@@ -4,7 +4,7 @@ import SectionHeader from 'components/section-header';
 
 export default function Resume() {
   return (
-    <section id='resume'>
+    <section id = 'resume'>
       <Container>
        <SectionHeader 
        slogan = "Document" 
