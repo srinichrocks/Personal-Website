@@ -9,7 +9,7 @@ export default function Header({ className }) {
   return (
       <header sx={styles.header} className = {className} id = "header">
         <Container sx={styles.container}>
-        <Flex as="nav" sx={styles.nav}>
+        <Flex as="nav" sx={styles.nav} className = "smooth-scroll">
           {menuItems.map((menuItem, i) => (
             <Link
               activeClass='active'
@@ -25,13 +25,13 @@ export default function Header({ className }) {
           ))}
           <Link
               activeClass='active'
-              to='resume'
+              to='contact-me'
               spy={true}
               smooth = {true}
               offset = {-70}
               duration = {500}
             >
-              <Button variant = "primary" path = "resume" smooth = {true} duration = {500} spy={true}>Resume</Button>
+              <Button variant = "primary" path = "contact-me" smooth = {true} duration = {500} spy={true}>Contact Me</Button>
             </Link>
         </Flex>
         <MobileDrawer>MobileDrawer</MobileDrawer>

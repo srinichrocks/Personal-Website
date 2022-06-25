@@ -51,11 +51,11 @@ export default function MobileDrawer() {
                 {menuItem.label}
               </Link>
             ))}
-            <Link to='resume' spy={true}
+            <Link to='contact-me' spy={true}
                 smooth = {true}
                 offset = {-70}
                 duration = {500}>
-          Resume
+          Contact Me
           </Link>
           </Box>
           <Box sx = {styles.menuFooter}>

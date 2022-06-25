@@ -8,8 +8,8 @@ import Home from '../sections/banner';
 import AboutMe from '../sections/about-me';
 import CourseWork from '../sections/projects';
 import Skills from '../sections/skills';
-import Resume from '../sections/resume';
 import Journey from '../sections/journey';
+import ContactMe from '../sections/contact-me';
 
 export default function IndexPage() {
   return (
@@ -21,7 +21,7 @@ export default function IndexPage() {
           <CourseWork />
           <Skills />
           <Journey />
-          <Resume />
+          <ContactMe />
         </Layout>
     </ThemeProvider>
   );
