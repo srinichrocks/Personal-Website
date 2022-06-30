@@ -1,13 +1,35 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Button} from 'theme-ui';
+import { Container, Button, Box} from 'theme-ui';
 import {Link} from 'react-scroll'
 import SectionHeader from '../components/section-header';
+import {FaBasketballBall, FaGuitar, FaGamepad, FaBed} from 'react-icons/fa';
+
+
+const social = [
+  {
+    icon: <FaBasketballBall />,
+  },
+  {
+    icon: <FaGuitar />,
+  },
+  {
+    icon: <FaGamepad/>
+  },
+  {
+    icon: <FaBed/>
+  }
+];
 
 export default function AboutMe() {
   return (
    <section sx = {{variant: "section.keyFeature"}}id = "about-me">
-     <Container>
+     <Container css = {{justifyContent: 'center'}}>
+     {social.map((socialItem,i) => (
+                  <Box as = "span" key = {i} sx = {styles.icon}>
+                    {socialItem.icon}
+                    </Box>
+                ))}
        <SectionHeader 
        slogan = "Who am I" 
        title = "Background"
@@ -32,9 +54,30 @@ export default function AboutMe() {
               offset = {-70}
               duration = {500}
             >
-              <Button variant = "secondary" path = "projects" color = "purple" smooth = {true} duration = {500} spy={true}>See my work!</Button>
+              <Button variant = "secondary">See my work!</Button>
           </Link>
      </Container>
    </section>
   );
+}
+
+const styles = {
+  icon: {
+    // display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: 'text',
+    fontSize: "40px",
+    mr: '20px',
+    transition: 'all 0.25s',
+    cursor: 'pointer',
+    ':last-child': {
+      mr: '0',
+    },
+    '&:hover': {
+      color: 'secondary',
+    },
+    size: "6em",
+    margin: "10%"
+  },
 }

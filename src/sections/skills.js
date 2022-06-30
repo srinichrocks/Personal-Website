@@ -171,7 +171,7 @@ export default function Skills() {
      </Container>
        <Carousel {... carouselParams}>
         {data.map((item) => (
-          <Box sx = {styles.reviewCard} key = {item.sliderClass}>
+          <Box sx = {styles.reviewCard}>
             <Rating rating = {item.review}/>
             <Heading as = "h3" sx = {styles.title}>
               {item.title}

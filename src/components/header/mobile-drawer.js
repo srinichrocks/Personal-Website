@@ -22,7 +22,7 @@ export default function MobileDrawer() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
    <Drawer
-   width="320px"
+   width="33%"
    drawerHandler = {
      <Box sx =  {styles.handler}>
        <IoMdMenu size = "26px"/>
@@ -30,11 +30,11 @@ export default function MobileDrawer() {
    }
    open = {isDrawerOpen}
    toggleHandler = {() => setIsDrawerOpen((prevState) => !prevState)}
-   closeButton = {<IoMdClose size = "24px" color = "#00000"/>}
+   closeButton = {<IoMdClose size = "40px" color = "#00000"/>}
    drawerStyle = {styles.drawer}
    closeBtnStyle = {styles.close}
    >
-     <FaRocket size = "2em" color = "purple"/>
+     {/* <FaRocket size = "2em" color = "purple"/> */}
      <Scrollbars autoHide>
         <Box sx = {styles.content}>
           <Box sx = {styles.menu}>
@@ -51,11 +51,18 @@ export default function MobileDrawer() {
                 {menuItem.label}
               </Link>
             ))}
-            <Link to='contact-me' spy={true}
-                smooth = {true}
-                offset = {-70}
-                duration = {500}>
+          </Box>
+          <br/>
+          <Box sx = {styles.menuFooter}>
+          <Link activeClass='active'
+              to='contact-me'
+              spy={true}
+              smooth = {true}
+              offset = {-70}
+              duration = {500}>
+                <Button variant = "primary" sx = {styles.button}>
           Contact Me
+          </Button>
           </Link>
           </Box>
           <Box sx = {styles.menuFooter}>
@@ -118,7 +125,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     a: {
-      fontSize: '16px',
+      fontSize: '20px',
       fontWeight: '500',
       color: 'text_white',
       py: '15px',
@@ -153,7 +160,7 @@ const styles = {
       alignItems: 'center',
       justifyContent: 'center',
       color: 'text',
-      // fontSize: 14,
+      fontSize: "40px",
       mr: '20px',
       transition: 'all 0.25s',
       cursor: 'pointer',
@@ -169,9 +176,9 @@ const styles = {
 
   button: {
     color: 'white',
-    fontSize: '14px',
+    fontSize: '25px',
     fw: '700',
-    height: '45px',
+    height: '60px',
     borderRadius: '5px',
     cursor: 'pointer',
     width: '100%',

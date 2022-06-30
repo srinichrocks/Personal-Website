@@ -19,8 +19,8 @@ const data = [
     title: 'Alphabet Game',
     text:
       <section>
-        <li>Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
-        <li>Employed Firebase to store game information for every unique user</li>
+        <li key = "kaka1">Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
+        <li key = "kaka2">Employed Firebase to store game information for every unique user</li>
       </section>,
     link: "//github.com/srinichrocks/AlphabetGame",
     languages: "Java, JavaFX"
@@ -206,7 +206,7 @@ export default function Projects() {
        />
        <Grid sx = {styles.grid}>
         {data.map((item) => (
-          <center>
+          <center key = "kaka8">
             <section>
             <section sx = {styles.img}>
             {item.imgSrc}
