@@ -11,11 +11,11 @@ const items = [
         cardTitle: "Pratham Education Foundation Math Competition",
         url: "https://prathammath.weebly.com/",
         cardSubtitle:"President",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <li>President of Pratham Math Competition, an annual competition held for 4th-8th graders with a focus middle school math competition problems</li>
             <li>Over 100 attendees and $10,000 raised and donated to Pratham, a non-profit dedicated to giving impoverished kids in India materials to enhance their learning experience(global impact)</li>
             <li>I also personally attended a school in India by the name of GGMS in order to witness the daily challenges that occur in impoverished societies as well as understand where exactly the money we raise from the math competition would be donated to</li>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -28,7 +28,7 @@ const items = [
         cardTitle: "Cupertino High School",
         url: "https://chs.fuhsd.org/",
         cardSubtitle:"High School Student",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <p>Coursework:</p>
             <ul>
             <u>Freshman:</u>
@@ -38,7 +38,7 @@ const items = [
             <li>Biology</li>
             <li>Spanish 3</li>
             </ul>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -51,13 +51,13 @@ const items = [
         cardTitle: "Foothill College",
         url: "https://foothill.edu/",
         cardSubtitle:"Community College Courses",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <p>Coursework:</p>
             <ul>
                 <u>Freshman</u>
                 <li>CS 1A Object-Oriented Programming Methodologies in JAVA</li>
             </ul>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -70,7 +70,7 @@ const items = [
         cardTitle: "Ohlone College",
         url: "https://www.ohlone.edu/",
         cardSubtitle:"Community College Courses",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <p>Coursework:</p>
             <ul>
                 <u>Sophomore</u>
@@ -83,7 +83,7 @@ const items = [
                 <li>CS 146 Introduction to UNIX/Linux</li>
                 <li>SOC 101 Introduction to Sociology</li>
             </ul>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -96,7 +96,7 @@ const items = [
         cardTitle: "Irvington High School",
         url: "https://ihs-fusd-ca.schoolloop.com/",
         cardSubtitle:"High School Student",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
         <p>Coursework:</p>
         <ul>
         <u>Sophomore:</u>
@@ -120,7 +120,7 @@ const items = [
         <li>Digital Imaging</li>
         <li>Guitar</li>
         </ul>
-    </Container>,
+    </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -133,10 +133,10 @@ const items = [
         cardTitle: "Irvington High School Programming Club",
         url: "https://ihs-fusd-ca.schoolloop.com/",
         cardSubtitle:"Vice President",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <li>Started a new initiative focused on helping students prepare for the AP exam</li>
             <li>Introduced a new program to have veterans in the tech industry to come and give talks similar in model to a "Ted Talk"</li>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -149,10 +149,10 @@ const items = [
         cardTitle: "Hackathon4Kids",
         url: "https://hackathon4kids.org/home.html",
         cardSubtitle:"CEO/Co-Founder",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <li>CEO/Founder of Hackathon4Kids, a 501c3 non-profit organization composed of high school students(with a strong knowledge in programming) teaching middle school kids essential programming skills</li>
             <li>Recently started a new initiative which focuses on teaching foster care kids specifically while providing with the means of learning(laptop)</li>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -165,12 +165,12 @@ const items = [
         cardTitle: "Outreach Staff Member",
         url: "https://aopsacademy.org/",
         cardSubtitle:"Outreach Staff Member",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <p>Attended multiple outreach events where I:</p>
             <li>Interacted with kids to spark their math interest</li>
             <li>Described my experience with the company's educational material in the past and how it enabled me to win multiple math competitions</li>
             <li>Enhanced my social and sales skills by convincing parents to invest in a service</li>
-            </Container>,
+            </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -183,7 +183,7 @@ const items = [
         cardTitle: "John F. Kennedy High School",
         url: "https://kennedy-fusd-ca.schoolloop.com/",
         cardSubtitle:"High School Student",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
         <p>Coursework:</p>
         <ul>
             <u>Senior</u>
@@ -196,7 +196,7 @@ const items = [
         <li>AP Macroeconomics</li>
         <li>Sociology(Dual Enrollment)</li>
         </ul>
-    </Container>,
+    </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -209,13 +209,13 @@ const items = [
         cardTitle: "Peritus.ai",
         url: "https://peritus.ai/",
         cardSubtitle:"Full-time Software Engineering Intern",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <p>Coded and implemented advanced NLP(a subfield of Machine Learning) models and techniques:</p>
-            <li>BERT,tfidf, NER, etc</li>
+            <li>BERT, tfidf, NER, etc</li>
             <p>Helped integrate code into the pipeline and worked with Enterprise Github for version control</p>
             <p>Collaborated with others in my team to accomplish the customer's goals and meet deadlines</p>
             <p>I plan to continue this internship in the future</p>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {
@@ -228,19 +228,19 @@ const items = [
         cardTitle: "UC Berkeley",
         url: "https://www.berkeley.edu/",
         cardSubtitle:"Computer Science/Data Science Student",
-        cardDetailedText: <Container>
+        cardDetailedText: <span>
             <p>Coursework:</p>
             <ul>
                 <u>Freshman</u>
                 <li>CS 61A</li>
-            <li>LS C5</li>
-            <li>EECS 16A</li>
-            <li>MUSIC R1B</li>
-            <li>CS 61B</li>
-            <li>EECS 16B</li>
-            <li>DATA 8</li>
+                <li>LS C5</li>
+                <li>EECS 16A</li>
+                <li>MUSIC R1B</li>
+                <li>CS 61B</li>
+                <li>EECS 16B</li>
+                <li>DATA 8</li>
             </ul>
-        </Container>,
+        </span>,
         media: {
             type: "IMAGE",
             source: {

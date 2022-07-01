@@ -13,7 +13,7 @@ export default function ContactMe() {
       subject,
       message
     }
-    fetch('/api/contact', {
+    fetch('../api/contact', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
@@ -32,6 +32,7 @@ export default function ContactMe() {
         setBody('')
       }
     })
+    document.getElementById("kaka").reset();
   }
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -46,7 +47,7 @@ export default function ContactMe() {
        title = "Contact Me"
        information= "You may also request my resume here."
        />
-       <form className = "contact-form">
+       <form className = "contact-form" id = "kaka">
        <Input type = "text" placeholder='Name' id = "name" onChange={(e)=>{setName(e.target.value)}}/>
        <Input type = "text" placeholder='Email' id = "email" onChange={(e)=>{setEmail(e.target.value)}}/>
        <Input type = "text" placeholder='Subject' id = "subject" onChange={(e)=>{setSubject(e.target.value)}}/>

@@ -206,7 +206,7 @@ export default function Projects() {
        />
        <Grid sx = {styles.grid}>
         {data.map((item) => (
-          <center key = "kaka8">
+          <center key = {item.id}>
             <section>
             <section sx = {styles.img}>
             {item.imgSrc}

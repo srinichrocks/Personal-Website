@@ -171,7 +171,7 @@ export default function Skills() {
      </Container>
        <Carousel {... carouselParams}>
         {data.map((item) => (
-          <Box sx = {styles.reviewCard}>
+          <Box sx = {styles.reviewCard} key = {item.id}>
             <Rating rating = {item.review}/>
             <Heading as = "h3" sx = {styles.title}>
               {item.title}
@@ -188,7 +188,7 @@ export default function Skills() {
        {/* <Text as = "h1">Libraries/Techniques</Text> */}
        <Carousel {... carouselParams}>
         {dataTwo.map((item) => (
-          <Box sx = {styles.reviewCard} key = {item.sliderClass}>
+          <Box sx = {styles.reviewCard} key = {item.id}>
             <Rating rating = {item.review}/>
             <Heading as = "h3" sx = {styles.title}>
               {item.title}
@@ -204,7 +204,7 @@ export default function Skills() {
      </Container>
        <Carousel {... carouselParams}>
         {dataThree.map((item) => (
-          <Box sx = {styles.reviewCard} key = {item.sliderClass}>
+          <Box sx = {styles.reviewCard} key = {item.id}>
             <Rating rating = {item.review}/>
             <Heading as = "h3" sx = {styles.title}>
               {item.title}
