@@ -11,6 +11,7 @@ import {GiPistolGun, GiAnt} from 'react-icons/gi'
 import {AiOutlineCodepenCircle, AiOutlineBlock, AiOutlineShoppingCart} from 'react-icons/ai'
 import {RiParenthesesFill} from 'react-icons/ri'
 import {FaCat, FaDiceSix} from 'react-icons/fa'
+import {motion} from 'framer-motion'
 const data = [
   {
     id: 1,

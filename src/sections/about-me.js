@@ -4,6 +4,7 @@ import { Container, Button, Box} from 'theme-ui';
 import {Link} from 'react-scroll'
 import SectionHeader from '../components/section-header';
 import {FaBasketballBall, FaGuitar, FaGamepad, FaBed} from 'react-icons/fa';
+import {motion} from "framer-motion"
 
 
 const social = [
@@ -23,7 +24,7 @@ const social = [
 
 export default function AboutMe() {
   return (
-   <section sx = {{variant: "section.keyFeature"}}id = "about-me">
+   <div sx = {{variant: "section.keyFeature"}}id = "about-me" >
      <Container css = {{justifyContent: 'center'}}>
      {social.map((socialItem,i) => (
                   <Box as = "span" key = {i} sx = {styles.icon}>
@@ -57,7 +58,7 @@ export default function AboutMe() {
               <Button variant = "secondary">See my work!</Button>
           </Link>
      </Container>
-   </section>
+   </div>
   );
 }
 

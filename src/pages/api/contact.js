@@ -18,10 +18,14 @@ export default function(req, res) {
       text: "Name: " + req.body.name + "\nEmail: " + req.body.email + "\nMessage: " + req.body.message,
      }
      transporter.sendMail(mailData, function (err, info) {
-      if(err)
-        console.log(err)
-      else
-        console.log(info)
+      if(err){
+        console.log(err);
+        res.send("error" + JSON.stringify(err));
+      }
+      else{
+        console.log("mail send");
+        res.send("success");
+      }
     })
     res.status(200)
     // console.log(typeof(process.env.password))

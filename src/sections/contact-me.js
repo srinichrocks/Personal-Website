@@ -29,7 +29,6 @@ export default function ContactMe() {
         setEmail('')
         setSubject('')
         setMessage('')
-        setBody('')
       }
     })
     document.getElementById("kaka").reset();
