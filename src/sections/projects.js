@@ -3,6 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
+import {CgWebsite} from 'react-icons/cg'
 // import Alphabet from '../assets/key-feature/rsz_alphabet.jpg';
 import { TiCalculator, TiSortAlphabeticallyOutline} from 'react-icons/ti';
 import {FiGithub} from 'react-icons/fi';
@@ -79,17 +80,17 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: <BiFace size = {70} key = "face"/>,
-    altText: 'Facial Recognition System',
-    title: 'Facial Recognition System',
+    imgSrc: <CgWebsite size = {70} key = "website"/>,
+    altText: 'Personal Website',
+    title: 'Personal Website',
     text:
     <section>
-      <li>Identifies every human face in the image and draws boxes around them</li>
-      <li>Developed in Python using OpenCV library; Utilized Sobel and Laplace edge detection</li>
-      <li>Created virtual environments and handled version issues through the use of Miniconda</li>
+      <li>Developed this website</li>
+      <li>Used Next.js/React for front-end as well as HTML, CSS and Javascript</li>
+      <li>Used Node.js and nodemailer for backend implementations</li>
     </section>,
     link: "//github.com/srinichrocks/FacialRecognitionSystem",
-    languages: "Python"
+    languages: "HTML, CSS, Javascript, React, NextJS"
   },
   {
     id: 5,
