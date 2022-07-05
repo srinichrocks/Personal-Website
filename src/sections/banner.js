@@ -5,7 +5,7 @@ import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
 import BannerImg from 'assets/sripic.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
-import { FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaMedium} from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
 const social = [
@@ -17,6 +17,10 @@ const social = [
     path: '//www.github.com/srinichrocks/',
     icon: <FaGithub />,
   },
+  {
+    path: 'https://medium.com/@sraghavendran17',
+    icon: <FaMedium />
+  }
 ];
 
 export default function Banner() {

@@ -4,7 +4,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import { FaLinkedinIn, FaGithub, FaRocket} from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaMedium} from 'react-icons/fa';
 import menuItems from './header.data';
 
 const social = [
@@ -16,6 +16,10 @@ const social = [
     path: '//www.github.com/srinichrocks/',
     icon: <FaGithub />,
   },
+  {
+    path: 'https://medium.com/@sraghavendran17',
+    icon: <FaMedium />
+  }
 ];
 
 export default function MobileDrawer() {
