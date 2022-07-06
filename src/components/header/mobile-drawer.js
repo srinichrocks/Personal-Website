@@ -164,7 +164,7 @@ const styles = {
       alignItems: 'center',
       justifyContent: 'center',
       color: 'text',
-      fontSize: "40px",
+      fontSize: "35px",
       mr: '20px',
       transition: 'all 0.25s',
       cursor: 'pointer',
