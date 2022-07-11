@@ -55,6 +55,7 @@ export default function ContactMe() {
        <Button variant = "secondary" sx = {styles.button} className = "submit" onClick={(e)=>{handleSubmit(e)}}>Submit</Button>
        </form>
      </Container>
+     <br/>
     </section>
   );
 }

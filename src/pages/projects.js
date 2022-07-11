@@ -5,7 +5,7 @@ import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
 import {CgWebsite} from 'react-icons/cg'
 // import Alphabet from '../assets/key-feature/rsz_alphabet.jpg';
-import { TiCalculator, TiSortAlphabeticallyOutline} from 'react-icons/ti';
+import { TiCalculator, TiSortAlphabeticallyOutline, TiDocumentText} from 'react-icons/ti';
 import {FiGithub} from 'react-icons/fi';
 import {BiFace} from 'react-icons/bi';
 import {GiPistolGun, GiAnt} from 'react-icons/gi'
@@ -132,15 +132,14 @@ const data = [
   },
   {
     id: 8,
-    imgSrc: <GiPistolGun size = {70} key = "gun"/>,
-    altText: 'Mass Shootings',
-    title: 'Mass Shootings',
+    imgSrc: <TiDocumentText size = {70} key = "text"/>,
+    altText: 'NLP Summarization',
+    title: 'NLP Summarization',
     text:
     <section>
-      <li>In order to truly figure out the real misconceptions behind mass shootings and the perpetrators of them, I decided to dive hands-on into a kaggle dataset of mass shootings from 2016-2021</li>
-      <li>I aimed to figure out trends amongst the presence of mental health issues, race as well as the number of people affected in each shooting</li>
-      <li>Utilized John Denero's notorious "datascience" library(used officially in UC Berkeley's curriculum as well) in order to conduct classification, regression tests and prediction on the dataset</li>
+      <li>Generated summaries of documents using BERT and tfidf vectors/transformers</li>
     </section>,
+    link: "//github.com/srinichrocks/nlpwork",
     languages: "Python"
   },
   {
@@ -193,6 +192,19 @@ const data = [
     </section>,
     link: "//github.com/srinichrocks/BasicReactProject",
     languages: "JavaScript, HTML, CSS, React"
+  },
+  {
+    id: 13,
+    imgSrc: <GiPistolGun size = {70} key = "gun"/>,
+    altText: 'Mass Shootings',
+    title: 'Mass Shootings',
+    text:
+    <section>
+      <li>In order to truly figure out the real misconceptions behind mass shootings and the perpetrators of them, I decided to dive hands-on into a kaggle dataset of mass shootings from 2016-2021</li>
+      <li>I aimed to figure out trends amongst the presence of mental health issues, race as well as the number of people affected in each shooting</li>
+      <li>Utilized John Denero's notorious "datascience" library(used officially in UC Berkeley's curriculum as well) in order to conduct classification, regression tests and prediction on the dataset</li>
+    </section>,
+    languages: "Python"
   },
   
   

@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Sticky from 'react-stickynode';
 import Header from './header/header';
 import Footer from './footer/footer';
-
 export default function Layout({ children }) {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -24,7 +23,8 @@ export default function Layout({ children }) {
       <main id="content" sx={{ variant: 'layout.main', }} >
         {children}
       </main>
-      <Footer />
+      <Footer/>
     </React.Fragment>
   );
+
 }

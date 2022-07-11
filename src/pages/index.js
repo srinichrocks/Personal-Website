@@ -4,12 +4,12 @@ import theme from 'theme';
 
 import SEO from 'components/seo';
 import Layout from 'components/layout';
-import Home from '../sections/banner';
-import AboutMe from '../sections/about-me';
-import CourseWork from '../sections/projects';
-import Skills from '../sections/skills';
-import Journey from '../sections/journey';
-import ContactMe from '../sections/contact-me';
+import Home from './banner';
+import AboutMe from './about-me';
+import CourseWork from './projects';
+import Skills from './skills';
+import Journey from './journey';
+import ContactMe from './contact-me';
 
 export default function IndexPage() {
   return (

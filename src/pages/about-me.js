@@ -77,7 +77,7 @@ const styles = {
       color: 'secondary',
     },
     size: "6em",
-    margin: "9%",
+    margin: "10%",
     
   },
 }
