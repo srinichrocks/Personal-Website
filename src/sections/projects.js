@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
-import SectionHeader from '../components/section-header';
+import SectionHeader from '../../src/components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
 import {CgWebsite} from 'react-icons/cg'
 // import Alphabet from '../assets/key-feature/rsz_alphabet.jpg';
