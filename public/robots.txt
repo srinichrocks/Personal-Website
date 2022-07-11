@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+# Host
+Host: https://www.srinich.me/
+
+# Sitemaps
+Sitemap: https://www.srinich.me/sitemap.xml
