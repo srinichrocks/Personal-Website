@@ -1,36 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.srinich.me/</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        </url>
-        <url>
-        <loc>https://www.srinich.me/about-me</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        </url>
-        <url>
-        <loc>https://www.srinich.me/banner</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        </url>
-        <url>
-        <loc>https://www.srinich.me/contact-me</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        </url>
-        <url>
-        <loc>https://www.srinich.me/journey</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        </url>
-        <url>
-        <loc>https://www.srinich.me/projects</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-        </url>
-        <url>
-        <loc>https://www.srinich.me/skills</loc>
+        <loc>https://www.srinich.me</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
         </url>
