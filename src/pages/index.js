@@ -1,8 +1,8 @@
 import React from 'react';
-import { ThemeProvider } from 'theme-ui';
+import { ThemeProvider} from 'theme-ui';
 import theme from 'theme';
 import { NextSeo } from 'next-seo';
-
+import Head from 'next/head'
 import Layout from 'components/layout';
 import Home from './banner';
 import AboutMe from './about-me';
@@ -14,6 +14,9 @@ import ContactMe from './contact-me';
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
+        <Head>
+          <meta name="google-site-verification" content="vEj-LXcJ5crzTnKy0Xmk0vKHqcBsjt_G3m4yU2qWflA" />
+        </Head>
         <Layout>
           <NextSeo 
             title="Srinidhi Raghavendran"
