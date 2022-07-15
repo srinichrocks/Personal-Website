@@ -1,155 +1,30 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Link } from 'react-scroll';
-import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
-import BannerImg from 'assets/sripic.png';
-import ShapeLeft from 'assets/shape-left.png';
-import ShapeRight from 'assets/shape-right.png';
-import { FaLinkedinIn, FaGithub, FaMedium} from 'react-icons/fa';
-import Typewriter from 'typewriter-effect';
-
-const social = [
-  {
-    path: '//www.linkedin.com/in/srinidhi-raghavendran-a94834164/',
-    icon: <FaLinkedinIn />,
-  },
-  {
-    path: '//www.github.com/srinichrocks/',
-    icon: <FaGithub />,
-  },
-  {
-    path: 'https://medium.com/@sraghavendran17',
-    icon: <FaMedium />
-  }
-];
+import Header from 'pages/header';
+import Sri from 'assets/sri.jpg';
+import Linkedin from '../../public/linkedin.png'
+import Footer from 'pages/footer';
+import Medium from '../../public/medium.png'
 
 export default function Banner() {
   return (
-    <section sx = {styles.banner} id = "home">
-      <Container sx = {styles.banner.container}>
-        <Box sx = {styles.banner.contentBox}>
-          <Typewriter variant = "heroPrimary"
-          onInit={(typewriter) => {
-            typewriter
-            .typeString("welcome")
-            .pauseFor(500).start()
-            .deleteAll()
-            .typeString("to my personal website")
-            .deleteAll()
-            .pauseFor(500)
-            .start()
-            .typeString("welcome")
-            ;
-          }}/>
-          <Heading as = "h1" variant = "heroPrimary">
-            srinidhi raghavendran
-          </Heading>
-          <Text as= "p" variant = "heroSecondary">
-          A UC Berkeley student pursuing a double major in Computer Science and Data Science
-          </Text>
-          <Box sx = {styles.social}>
-          {social.map((socialItem,i) => (
-                  <Box as = "span" key = {i} sx = {styles.social.icon}>
-                    <a href={socialItem.path} rel={"noreferrer"} target={"_blank"}>{socialItem.icon}</a>
-                    </Box>
-                ))}  
-              </Box>
-              <Link
-              activeClass='active'
-              to='about-me'
-              spy={true}
-              smooth = {true}
-              offset = {-70}
-              duration = {500}
-            >
-              <Button variant = "secondary" color = "purple" path = "about-me" smooth = {true} duration = {500} spy={true}>About Me</Button>
-          </Link>
-        </Box>
-        <Box sx = {styles.banner.imageBox}>
-            <Image src={BannerImg} alt = 'banner'/>
-        </Box>
-      </Container>
+    <section id = "home">
+      <Header/>
+      <div className='row mt-4 mb-4'>
+        <div className='col-1'/>
+        <div className='col-4'>
+            <img src = {Sri} width = {400} height = {600} className="rounded-circle mx-auto img-fluid"/>
+        </div>
+        <div className='col-6 border-left text-left'>
+            <p className='display-4 text-center'>About Me</p>
+            <p>Hello! I'm Sri, a second-year Computer Science & Data Science undergraduate at the University of California, Berkeley.</p>
+            <p>My interests are centered mainly around mathematics and computer science. I competed in many math competitions throughout middle and high school and also started my own non-profit in high school in order to teach computer science fundamentals to kids.</p>
+            <p>Currently, I am interested in generating advanced statistical models to address societal issues through the use of my cs/ds skills. I am also interested in developing full-stack applications through the use of modern front-end libraries like react and next and databases like MongoDB.</p>
+            <p>In my free time, I play the guitar, basketball, videogames (and sleep). I also played in the USA minor league for Cricket and was in the top 50 for the USA u19 squad.</p>
+            </div>
+        <div className='col-1'/>
+      </div>
+      <Footer/>
     </section>
   );
 }
-
-const styles = {
-  banner: {
-    pt: ['140px', '145px', '155px', '170px', null, null, '180px', '215px'],
-    pb: [2, null, 0, null, 2, 0, null, 5],
-    position: 'relative',
-    zIndex: 2,
-    '&::before': {
-      position: 'absolute',
-      content: '""',
-      bottom: 6,
-      left: 0,
-      height: '100%',
-      width: '100%',
-      zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: 'bottom left',
-      backgroundSize: '36%',
-    },
-    '&::after': {
-      position: 'absolute',
-      content: '""',
-      bottom: '40px',
-      right: 0,
-      height: '100%',
-      width: '100%',
-      zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: 'bottom right',
-      backgroundSize: '32%',
-    },
-    container: {
-      minHeight: 'inherit',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-    },
-    contentBox: {
-      width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
-      mx: 'auto',
-      textAlign: 'center',
-      mb: ['40px', null, null, null, null, 7],
-    },
-    imageBox: {
-      justifyContent: 'center',
-      textAlign: 'center',
-      display: 'inline-flex',
-      mb: [0, null, -6, null, null, '-40px', null, -3],
-      img: {
-        position: 'relative',
-        height: [245, 'auto'],
-      },
-    },
-  },
-  social: {
-    width: '100%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-
-    icon: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      color: 'text',
-      fontSize: 24,
-      mr: '15px',
-      transition: 'all 0.25s',
-      cursor: 'pointer',
-      ':last-child': {
-        mr: '0',
-      },
-      '&:hover': {
-        color: 'secondary',
-      },
-      size: "3em"
-    },
-  },
-};
