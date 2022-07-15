@@ -8,7 +8,7 @@ export default function Projects() {
   return (
    <section id = "projects">
      <Header/>
-     <p className='h1 text-center mt-2'>Featured Projects</p>
+     <p className='h2 text-center mt-2'>Featured Projects</p>
      <hr/>
      <div className='row mt-3 mx-2 text-center'>
        <div className='col-sm-4'>
@@ -77,7 +77,7 @@ export default function Projects() {
               </a>
        </div>
      </div>
-     <p className='h1 text-center mt-5 pt-2'>Side Projects</p>
+     <p className='h2 text-center mt-5 pt-2'>Side Projects</p>
      <hr/>
      <div class="row mt-3 mx-2 container-fluid">
             <div class="col-md-3"> 

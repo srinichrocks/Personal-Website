@@ -5,7 +5,7 @@ export default function work() {
     return(
         <section id="work">
             <Header/>
-            <p className='h1 text-center mt-2'>Work</p>
+            <p className='h2 text-center mt-2'>Work</p>
             <hr/>
             <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>

@@ -33,7 +33,7 @@ export default function Education() {
     return(
         <section id = "education">
             <Header/>
-            <p className='h1 text-center mt-2'>Education</p>
+            <p className='h2 text-center mt-2'>Education</p>
             <hr/>
             <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>
