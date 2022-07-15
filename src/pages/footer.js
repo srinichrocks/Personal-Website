@@ -1,7 +1,8 @@
+import styles from '../../styles/header.module.css'
 export default function Footer() {
     return(
-        <section id = "footer">
-<footer class="page-footer font-small blue pt-4 bg-dark bg-gradient mt-3">
+        <section id = "footer" className={styles.grad}>
+<footer class="page-footer font-small blue pt-4 mt-3">
 
   <div class="container-fluid text-center text-md-left">
 

@@ -1,5 +1,4 @@
-/** @jsx jsx */
-import { jsx, Heading } from 'theme-ui';
+import { motion } from 'framer-motion';
 import Footer from './footer';
 import Header from './header';
 // import BannerImg from 'assets/sripic.png';
@@ -41,14 +40,22 @@ export default function Education() {
               </div>
               </a>
                 </div>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                <motion.div className='col-6 text-center d-flex align-items-center justify-content-center' animate={{
+      scale: [1, 1.25, 1.25, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}>
                     <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1200px-Seal_of_University_of_California%2C_Berkeley.svg.png" width={200} height = {200}/>
-                </div>
+                </motion.div>
             </div>
             <div className='row mt-4 mx-2'>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                <motion.div className='col-6 text-center d-flex align-items-center justify-content-center' animate={{
+      scale: [1, 1.25, 1.25, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}>
                     <img src = "https://upload.wikimedia.org/wikipedia/en/f/f9/Ohlone_college_logo.jpg" width={200} height = {200}/>
-                </div>
+                </motion.div>
                 <div className='col-6 text-center'>
                 <a href = "https://www.ohlone.edu/" target = "_blank">
               <div class="card text-center shadow rounded">
@@ -96,14 +103,22 @@ export default function Education() {
               </div>
               </a>
                 </div>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                <motion.div className='col-6 text-center d-flex align-items-center justify-content-center' animate={{
+      scale: [1, 1.25, 1.25, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}>
                     <img src = "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ako6mtcdkftdjgkpvcq6" width={200} height = {200}/>
-                </div>
+                </motion.div>
             </div>
             <div className='row mt-4 mx-2'>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                <motion.div className='col-6 text-center d-flex align-items-center justify-content-center' animate={{
+      scale: [1, 1.25, 1.25, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}>
                     <img src = "https://cdn.businessyab.com/assets/uploads/91e386c1515b3930de70af3bcf0e88be_-united-states-california-alameda-county-fremont-28-palms-blacow-road-39999-john-f-kennedy-high-school.jpg" width={200} height = {200}/>
-                </div>
+                </motion.div>
                 <div className='col-6 text-center'>
                 <a href = "https://kennedy-fusd-ca.schoolloop.com/" target = "_blank">
               <div class="card text-center shadow rounded">
@@ -169,14 +184,22 @@ export default function Education() {
               </div>
               </a>
                 </div>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                <motion.div className='col-6 text-center d-flex align-items-center justify-content-center' animate={{
+      scale: [1, 1.25, 1.25, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}>
                     <img src = "https://upload.wikimedia.org/wikipedia/en/a/aa/Irvington_High_School_Vikings_logo.png" width={200} height = {200}/>
-                </div>
+                </motion.div>
             </div>
             <div className='row mt-4 mx-2'>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                <motion.div className='col-6 text-center d-flex align-items-center justify-content-center' animate={{
+      scale: [1, 1.25, 1.25, 1, 1],
+      rotate: [0, 0, 270, 270, 0],
+      borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+    }}>
                     <img src = "https://www.princetonreview.com/cms-content/cupertino-logo-2019.png" width={200} height = {200}/>
-                </div>
+                </motion.div>
                 <div className='col-6 text-center'>
                 <a href = "https://chs.fuhsd.org/" target = "_blank">
               <div class="card text-center shadow rounded">

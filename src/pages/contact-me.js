@@ -1,6 +1,8 @@
 import Footer from './footer';
 import { useState } from 'react'
 import Header from './header';
+import styles from '../../styles/header.module.css'
+
 
 export default function ContactMe() {
   const handleSubmit = (e) => {
@@ -46,8 +48,8 @@ export default function ContactMe() {
       <div className='row mt-4 mb-2 mt-2'>
         <div className='col-1'/>
         <div className='col-10'>
-        <div class="shadow-lg bg-white rounded">
-        <div className='card bg-dark bg-gradient'>
+        <div class="shadow-lg rounded">
+        <div className='card' class = {styles.grad}>
       <form className = "contact-form" id = "kaka">
         <div className='form-group row'>
           <div className='col-1'/>

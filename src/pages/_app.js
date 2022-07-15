@@ -3,8 +3,9 @@ import 'react-modal-video/css/modal-video.min.css';
 import 'rc-drawer/assets/index.css';
 import 'typeface-dm-sans';
 import '../../styles/globals.css'
+import { motion, AnimatePresence } from 'framer-motion';
 import Head from 'next/head';
-export default function CustomApp({ Component, pageProps }) {
+export default function CustomApp({ Component, pageProps, router }) {
   return (
     <>
       <Head>
@@ -13,7 +14,23 @@ export default function CustomApp({ Component, pageProps }) {
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       </Head>
-      <Component {...pageProps} />
+      <AnimatePresence>
+      <motion.div key = {router.route} exit = "pageExit"initial = "pageInitial" animate = "pageAnimate" variants={{
+        pageInitial: {
+          opacity: 0
+        },
+        pageAnimate: {
+          opacity: 1
+        },
+        pageExit: {
+          backgroundColor: 'white',
+          filter: `invert()`,
+          opacity: 0
+        }
+      }}>
+        <Component {...pageProps} />
+      </motion.div>
+      </AnimatePresence>
     </>
   )
 }

@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Grid } from 'theme-ui';
+import { motion } from 'framer-motion';
 import Header from './header';
 import Footer from './footer';
 
@@ -12,8 +12,23 @@ export default function Projects() {
      <hr/>
      <div className='row mt-4 mx-2 text-center'>
        <div className='col-sm-4'>
-       <a href = "//github.com/srinichrocks/Gitlet" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+      <a href = "//github.com/srinichrocks/Gitlet" target = "_blank">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 1
+                }
+              }}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Github Lite</h4>
@@ -40,11 +55,25 @@ export default function Projects() {
       </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
        </div>
        <div className='col-sm-4'>
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 1
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Utility App</h4>
@@ -55,11 +84,25 @@ export default function Projects() {
                   <button type = "button" className = "btn btn-dark mt-2" disabledtarget = "_blank">In progress</button>
                   </div>
                 </div>
-              </div>
+              </motion.div>
        </div>
        <div className='col-sm-4'>
        <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 1
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Alphabet Game</h4>
@@ -70,7 +113,7 @@ export default function Projects() {
       </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
        </div>
      </div>
@@ -79,7 +122,21 @@ export default function Projects() {
      <div class="row mt-3 mx-2 container-fluid">
             <div class="col-md-3"> 
             <a href = "//github.com/srinichrocks/RPN-Assignment" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">RPN Calculator</h4>
@@ -95,12 +152,26 @@ export default function Projects() {
                   </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             <div class="col-md-3"> 
             <a href = '//github.com/srinichrocks/Enigma' target = "_blank">
-              <div class="card text-center h-100 shadow rounded">
+              <motion.div class="card text-center h-100 shadow rounded" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Enigma</h4>
@@ -111,12 +182,26 @@ export default function Projects() {
                     </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             <div class="col-md-3"> 
             <a href = "//github.com/srinichrocks/SchemeInterpreter" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Scheme Interpreter</h4>
@@ -126,12 +211,26 @@ export default function Projects() {
                     </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             <div class="col-md-3"> 
             <a href = "//github.com/srinichrocks/Blocks" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Blocks Game</h4>
@@ -142,14 +241,28 @@ export default function Projects() {
                     </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             </div>
             <div class="row mt-3 mx-2 container-fluid">
             <div class="col-xl-3 col-sm-6 col-12"> 
             <a href = "//github.com/srinichrocks/nlpwork" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">NLP Summarization</h4>
@@ -159,12 +272,26 @@ export default function Projects() {
                   </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             <div class="col-xl-3 col-sm-6 col-12"> 
             <a href = "//github.com/srinichrocks/CatsGame" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Cats Game</h4>
@@ -175,12 +302,26 @@ export default function Projects() {
                     </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             <div class="col-xl-3 col-sm-6 col-12"> 
             <a href ="//github.com/srinichrocks/hog" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Hog Game</h4>
@@ -191,12 +332,26 @@ export default function Projects() {
                     </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             <div class="col-xl-3 col-sm-6 col-12"> 
             <a href = "//github.com/srinichrocks/AntsGame" target = "_blank">
-              <div class="card text-center shadow rounded h-100">
+              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title">Ant Game</h4>
@@ -207,14 +362,28 @@ export default function Projects() {
                     </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
               </a>
             </div>
             </div>
             <div class="row mt-3 mx-2 text-center container-fluid">
             <div class="col-xl-3 col-sm-6 col-12"> 
             <a href = "//github.com/srinichrocks/BasicReactProject" target = "_blank">
-            <div class="card text-center shadow rounded h-100">
+            <motion.div class="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body text-black">
                     <h4 class="card-title">Shopping Cart</h4>
@@ -224,11 +393,25 @@ export default function Projects() {
                   </section>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </a>
             </div>
             <div class="col-xl-3 col-sm-6 col-12"> 
-              <div class="card h-100 shadow rounded">
+              <motion.div class="card h-100 shadow rounded" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
                 <div class="card-content">
                   <div class="card-body">
                     <h4 class="card-title text-center">Mass Shooting</h4>
@@ -241,7 +424,7 @@ export default function Projects() {
                     <button type = "button" className = "btn btn-dark mt-2" disabledtarget = "_blank">In progress</button>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
           <Footer/>
