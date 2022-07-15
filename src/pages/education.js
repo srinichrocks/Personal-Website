@@ -33,7 +33,7 @@ export default function Education() {
     return(
         <section id = "education">
             <Header/>
-            <p className='display-4 text-center mt-2'>Education</p>
+            <p className='h1 text-center mt-2'>Education</p>
             <hr/>
             <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>
@@ -43,7 +43,7 @@ export default function Education() {
                   <div class="card-body">
                     <h4 class="card-title">Computer Science & Data Science Student</h4>
                     <h6 className='card-subtitle text-primary'>UC Berkeley</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
                         <u>Freshman</u>
@@ -76,7 +76,7 @@ export default function Education() {
                   <div class="card-body">
                     <h4 class="card-title">Dual Enrollment Community College Course</h4>
                     <h6 className='card-subtitle text-primary'>Ohlone College</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
                         <u>Sophomore</u>
@@ -104,7 +104,7 @@ export default function Education() {
                   <div class="card-body">
                     <h4 class="card-title">Dual Enrollment Community College Course</h4>
                     <h6 className='card-subtitle text-primary'>Foothill College</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
                         <u>Freshman</u>
@@ -131,7 +131,7 @@ export default function Education() {
                   <div class="card-body">
                     <h4 class="card-title">High School Student(12)</h4>
                     <h6 className='card-subtitle text-primary'>John F. Kennedy High School</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
                         <u>Senior</u>
@@ -159,7 +159,7 @@ export default function Education() {
                   <div class="card-body">
                     <h4 class="card-title">High School Student(10/11)</h4>
                     <h6 className='card-subtitle text-primary'>Irvington High School</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
                     <u>Sophomore:</u>
@@ -204,7 +204,7 @@ export default function Education() {
                   <div class="card-body">
                     <h4 class="card-title">High School Student(9)</h4>
                     <h6 className='card-subtitle text-primary'>Cupertino High School</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
                     <u>Freshman:</u>

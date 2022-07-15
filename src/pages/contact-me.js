@@ -41,6 +41,8 @@ export default function ContactMe() {
     <section id = 'contact-me'>
       <Header/>
       <center>
+      <p className='h1 text-center mt-2'>Education</p>
+      <hr/>
       <div className='row mt-3 mb-2 mt-2'>
         <div className='col-1'/>
         <div className='col-10'>
@@ -90,19 +92,4 @@ export default function ContactMe() {
      <Footer/>
     </section>
   );
-}
-
-const styles = {
-  button: {
-    color: "red",
-    fontSize: '25px',
-    fw: '700',
-    height: '60px',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    width: '33%',
-    alignItems: 'center',
-    justifyContent: 'center',
-    py: '0'
-  },
 }

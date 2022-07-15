@@ -5,7 +5,7 @@ export default function work() {
     return(
         <section id="work">
             <Header/>
-            <p className='display-4 text-center mt-2'>Work</p>
+            <p className='h1 text-center mt-2'>Work</p>
             <hr/>
             <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>
@@ -15,7 +15,7 @@ export default function work() {
                   <div class="card-body">
                     <h4 class="card-title">Full-time Software Engineering Intern</h4>
                     <h6 className='card-subtitle text-primary'>Peritus.ai</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                         <p>Coded and implemented advanced NLP(a subfield of Machine Learning) models and techniques:</p>
                         <li>BERT, tfidf, NER, etc</li>
                         <p>Helped integrate code into the pipeline and worked with Enterprise Github for version control</p>
@@ -42,7 +42,7 @@ export default function work() {
                   <div class="card-body">
                     <h4 class="card-title">Outreach Staff Member</h4>
                     <h6 className='card-subtitle text-primary'>AoPS Academy</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                     <p>Attended multiple outreach events where I:</p>
             <li>Interacted with kids to spark their math interest</li>
             <li>Described my experience with the company's educational material in the past and how it enabled me to win multiple math competitions</li>
@@ -62,7 +62,7 @@ export default function work() {
                   <div class="card-body">
                     <h4 class="card-title">CEO/Co-Founder</h4>
                     <h6 className='card-subtitle text-primary'>Hackathon4Kids</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                         <li>CEO/Founder of Hackathon4Kids, a 501c3 non-profit organization composed of high school students(with a strong knowledge in programming) teaching middle school kids essential programming skills</li>
                         <li>Recently started a new initiative which focuses on teaching foster care kids specifically while providing with the means of learning(laptop)</li>
                     </section>
@@ -86,7 +86,7 @@ export default function work() {
                   <div class="card-body">
                     <h4 class="card-title">President</h4>
                     <h6 className='card-subtitle text-primary'>Pratham Education Foundation Math Competition</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                         <li>President of Pratham Math Competition, an annual competition held for 4th-8th graders with a focus middle school math competition problems</li>
                         <li>Over 100 attendees and $10,000 raised and donated to Pratham, a non-profit dedicated to giving impoverished kids in India materials to enhance their learning experience(global impact)</li>
                         <li>I also personally attended a school in India by the name of GGMS in order to witness the daily challenges that occur in impoverished societies as well as understand where exactly the money we raise from the math competition would be donated to</li>
@@ -105,7 +105,7 @@ export default function work() {
                   <div class="card-body">
                     <h4 class="card-title">Vice President</h4>
                     <h6 className='card-subtitle text-primary'>Irvington High School Programming Club</h6>
-                    <section className='card-text text-left text-secondary'>
+                    <section className='card-text text-left text-dark'>
                         <li>Started a new initiative focused on helping students prepare for the AP exam</li>
                         <li>Introduced a new program to have veterans in the tech industry to come and give talks similar in model to a "Ted Talk"</li>
                     </section>
