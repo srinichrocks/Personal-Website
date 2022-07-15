@@ -49,7 +49,8 @@ export default function ContactMe() {
         <div className='col-1'/>
         <div className='col-10'>
         <div class="shadow-lg rounded">
-        <div className='card' class = {styles.grad}>
+        <div className='card'>
+        <div className={styles.grad}>
       <form className = "contact-form" id = "kaka">
         <div className='form-group row'>
           <div className='col-1'/>
@@ -85,6 +86,7 @@ export default function ContactMe() {
         </div>
           <button type="submit" class="btn btn-light mb-3 btn-lg" onClick={(e)=>{handleSubmit(e)}}>Submit</button>
        </form>
+       </div>
       </div>
         </div>
         </div>
