@@ -9,7 +9,7 @@ export default function Footer() {
 
       <div class="col-md-6 mt-md-0 mt-3">
 
-        <h5 class="text-uppercase text-center text-light">Srinidhi Raghavendran</h5>
+        <h1 class="text-uppercase text-center text-light">Srinidhi Raghavendran</h1>
         <p className="text-center text-light mt-3">Please contact me if you have any questions or concerns</p>
 
       </div>

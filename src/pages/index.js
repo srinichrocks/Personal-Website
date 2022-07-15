@@ -8,6 +8,7 @@ export default function IndexPage() {
     <div>
         <Head>
           <meta name="google-site-verification" content="vEj-LXcJ5crzTnKy0Xmk0vKHqcBsjt_G3m4yU2qWflA" />
+          <title>Srinidhi Raghavendran</title>
         </Head>
         <NextSeo 
             title="Srinidhi Raghavendran"
