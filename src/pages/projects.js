@@ -10,7 +10,7 @@ export default function Projects() {
      <Header/>
      <p className='h2 text-center mt-2'>Featured Projects</p>
      <hr/>
-     <div className='row mt-3 mx-2 text-center'>
+     <div className='row mt-4 mx-2 text-center'>
        <div className='col-sm-4'>
        <a href = "//github.com/srinichrocks/Gitlet" target = "_blank">
               <div class="card text-center shadow rounded h-100">
