@@ -44,7 +44,6 @@ export default function Projects() {
               </a>
        </div>
        <div className='col-sm-4'>
-       {/* <a href = "//github.com/srinichrocks/RPN-Assignment" target = "_blank"> */}
               <div class="card text-center shadow rounded h-100">
                 <div class="card-content">
                   <div class="card-body">
@@ -57,8 +56,6 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              {/* </a> */}
-          
        </div>
        <div className='col-sm-4'>
        <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank">

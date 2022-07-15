@@ -4,26 +4,6 @@ import Footer from './footer';
 import Header from './header';
 // import BannerImg from 'assets/sripic.png';
 
-const items = [
-
-    {
-        title: "Irvington High School Programming Club",
-        cardTitle: "Irvington High School Programming Club",
-        url: "https://ihs-fusd-ca.schoolloop.com/",
-        cardSubtitle:"Vice President",
-        cardDetailedText: <span>
-            <li>Started a new initiative focused on helping students prepare for the AP exam</li>
-            <li>Introduced a new program to have veterans in the tech industry to come and give talks similar in model to a "Ted Talk"</li>
-        </span>,
-        media: {
-            type: "IMAGE",
-            source: {
-            url: "https://upload.wikimedia.org/wikipedia/en/a/aa/Irvington_High_School_Vikings_logo.png"
-            }
-        }
-    },
-    
-]
 
 
 

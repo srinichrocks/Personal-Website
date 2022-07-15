@@ -17,19 +17,19 @@ export default function Header() {
         </nav> */}
         <ul class="nav navbar-expand-lg navbar-dark bg-dark bg-gradient py-1 py-lg-3 justify-content-center">
         <li class="nav-item">
-          <a class="nav-link text-white px-4" href="/">Home</a>
+          <a class="nav-link text-white px-2" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white px-4" href="/projects">Projects</a>
+          <a class="nav-link text-white px-2" href="/projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white px-4" href="/education">Education</a>
+          <a class="nav-link text-white px-2" href="/education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white px-4" href="/work">Work</a>
+          <a class="nav-link text-white px-2" href="/work">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white px-4" href="/contact-me">Contact Me</a>
+          <a class="nav-link text-white px-2" href="/contact-me">Contact Me</a>
         </li>
       </ul>
     </div>
