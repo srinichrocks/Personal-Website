@@ -48,7 +48,7 @@ export default function ContactMe() {
       <div className='row mt-4 mb-2 mt-2'>
         <div className='col-1'/>
         <div className='col-10'>
-        <div class="shadow-lg rounded">
+        <div className="shadow-lg rounded">
         <div className='card'>
         <div className={styles.grad}>
       <form className = "contact-form" id = "kaka">
@@ -56,7 +56,7 @@ export default function ContactMe() {
           <div className='col-1'/>
           <div className='col-lg-10'>
           <label className='h5 mt-4 text-white'>Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Name" onChange={(e)=>{setName(e.target.value)}}/>
+          <input type="text" className="form-control" id="name" placeholder="Name" onChange={(e)=>{setName(e.target.value)}}/>
           </div>
           <div className='col-1'/>
         </div>
@@ -64,7 +64,7 @@ export default function ContactMe() {
           <div className='col-1'/>
           <div className='col-lg-10'>
           <label className='h5 mt-2 text-white'>Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}}/>
+          <input type="email" className="form-control" id="email" placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}}/>
           </div>
           <div className='col-1'/>
         </div>
@@ -72,7 +72,7 @@ export default function ContactMe() {
           <div className='col-1'/>
           <div className='col-lg-10'>
           <label className='h5 mt-2 text-white'>Subject</label>
-          <input type="text" class="form-control" id="subject" placeholder="Subject" onChange={(e)=>{setSubject(e.target.value)}}/>
+          <input type="text" className="form-control" id="subject" placeholder="Subject" onChange={(e)=>{setSubject(e.target.value)}}/>
           </div>
           <div className='col-1'/>
         </div>
@@ -80,11 +80,11 @@ export default function ContactMe() {
           <div className='col-1'/>
           <div className='col-lg-10'>
           <label className='h5 mt-2 text-white'>Message</label>
-          <textarea cols = "30" rows = "10" type="text" class="form-control" id="message" placeholder="Message" onChange={(e)=>{setMessage(e.target.value)}}/>
+          <textarea cols = "30" rows = "10" type="text" className="form-control" id="message" placeholder="Message" onChange={(e)=>{setMessage(e.target.value)}}/>
           </div>
           <div className='col-1'/>
         </div>
-          <button type="submit" class="btn btn-light mb-3 btn-lg" onClick={(e)=>{handleSubmit(e)}}>Submit</button>
+          <button type="submit" className="btn btn-light mb-3 btn-lg" onClick={(e)=>{handleSubmit(e)}}>Submit</button>
        </form>
        </div>
       </div>

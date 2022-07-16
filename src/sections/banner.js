@@ -45,7 +45,7 @@ export default function Banner() {
                 }
               }
             }}>
-            <img src = {Sri} width = {400} height = {600} className="rounded-circle mx-auto img-fluid align-items-center"/>
+            <img src = {Sri} alt = "sri" width = {400} height = {600} className="rounded-circle mx-auto img-fluid align-items-center"/>
             </motion.div>
         </div>
         <div className='col-6 text-center'>

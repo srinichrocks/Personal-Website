@@ -12,8 +12,8 @@ export default function Projects() {
      <hr/>
      <div className='row mt-4 mx-2 text-center'>
        <div className='col-sm-4'>
-      <a href = "//github.com/srinichrocks/Gitlet" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+      <a href = "//github.com/srinichrocks/Gitlet" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -29,9 +29,9 @@ export default function Projects() {
                   duration: 1
                 }
               }}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Github Lite</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Github Lite</h4>
                     <h6 className='card-subtitle text-primary'>Java</h6>
                     <section className='card-text text-left text-dark'>
         <p>Implemented a smaller version control system modeling that of Github</p>
@@ -59,7 +59,7 @@ export default function Projects() {
               </a>
        </div>
        <div className='col-sm-4'>
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -74,9 +74,9 @@ export default function Projects() {
                 transition: {
                   duration: 1
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Utility App</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Utility App</h4>
                     <h6 className='card-subtitle text-primary'>Java</h6>
                     <section className='card-text text-left text-dark'>
                     <p>Supports text translation, text summarization, sentiment analysis, NER, language detection and even dad jokes</p>
@@ -87,8 +87,8 @@ export default function Projects() {
               </motion.div>
        </div>
        <div className='col-sm-4'>
-       <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+       <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -103,9 +103,9 @@ export default function Projects() {
                 transition: {
                   duration: 1
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Alphabet Game</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Alphabet Game</h4>
                     <h6 className='card-subtitle text-primary'>Java, JavaFX</h6>
                     <section className='card-text text-left text-dark'>
         <li key = "kaka1">Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
@@ -119,10 +119,10 @@ export default function Projects() {
      </div>
      <p className='h2 text-center mt-5 pt-2'>Side Projects</p>
      <hr/>
-     <div class="row mt-3 mx-2 container-fluid">
-            <div class="col-md-3"> 
-            <a href = "//github.com/srinichrocks/RPN-Assignment" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+     <div className="row mt-3 mx-2 container-fluid">
+            <div className="col-md-3"> 
+            <a href = "//github.com/srinichrocks/RPN-Assignment" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -137,9 +137,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">RPN Calculator</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">RPN Calculator</h4>
                     <h6 className='card-subtitle text-primary'>Java</h6>
                     <section className='card-text text-left text-dark'>
                     <p>RPN calculator is a calculator which is capable of integer math that supports 4 operations:</p>
@@ -155,9 +155,9 @@ export default function Projects() {
               </motion.div>
               </a>
             </div>
-            <div class="col-md-3"> 
-            <a href = '//github.com/srinichrocks/Enigma' target = "_blank">
-              <motion.div class="card text-center h-100 shadow rounded" whileHover={{
+            <div className="col-md-3"> 
+            <a href = '//github.com/srinichrocks/Enigma' target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center h-100 shadow rounded" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -172,9 +172,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Enigma</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Enigma</h4>
                     <h6 className='card-subtitle text-primary'>Java</h6>
                     <section className = "card-text text-dark text-left">
                       <p>The Enigma machine that Germany used during World War II to encrypt its military communications</p>
@@ -185,9 +185,9 @@ export default function Projects() {
               </motion.div>
               </a>
             </div>
-            <div class="col-md-3"> 
-            <a href = "//github.com/srinichrocks/SchemeInterpreter" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="col-md-3"> 
+            <a href = "//github.com/srinichrocks/SchemeInterpreter" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -202,9 +202,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Scheme Interpreter</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Scheme Interpreter</h4>
                     <h6 className='card-subtitle text-primary'>Python, Scheme</h6>
                     <section className = "card-text text-dark text-left">
                     <p>An interpreter identical in functionalities and design to that of the python programming language built using scheme</p>    
@@ -214,9 +214,9 @@ export default function Projects() {
               </motion.div>
               </a>
             </div>
-            <div class="col-md-3"> 
-            <a href = "//github.com/srinichrocks/Blocks" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="col-md-3"> 
+            <a href = "//github.com/srinichrocks/Blocks" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -231,9 +231,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Blocks Game</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Blocks Game</h4>
                     <h6 className='card-subtitle text-primary'>Java, Swing</h6>
                     <section className = "card-text text-left text-dark">
                     <li>An interactive game where one is presented with a grid of square cells (initially empty) and a set of a number of pieces formed from configurations of blocks arranged to cover empty cells of the grid</li>
@@ -245,10 +245,10 @@ export default function Projects() {
               </a>
             </div>
             </div>
-            <div class="row mt-3 mx-2 container-fluid">
-            <div class="col-xl-3 col-sm-6 col-12"> 
-            <a href = "//github.com/srinichrocks/nlpwork" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="row mt-3 mx-2 container-fluid">
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href = "//github.com/srinichrocks/nlpwork" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -263,9 +263,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">NLP Summarization</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">NLP Summarization</h4>
                     <h6 className='card-subtitle text-primary'>Python</h6>
                     <section className='card-text text-dark text-left'>
                     <p>Generated summaries of documents using BERT and tfidf vectors/transformers</p>
@@ -275,9 +275,9 @@ export default function Projects() {
               </motion.div>
               </a>
             </div>
-            <div class="col-xl-3 col-sm-6 col-12"> 
-            <a href = "//github.com/srinichrocks/CatsGame" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href = "//github.com/srinichrocks/CatsGame" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -292,9 +292,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Cats Game</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Cats Game</h4>
                     <h6 className='card-subtitle text-primary'>Python</h6>
                     <section className = "card-text text-dark text-left">
                     <p>A game that measures typing speed and also has a typing autocorrect functionality to correct the spelling of a word after a user types it</p>
@@ -305,9 +305,9 @@ export default function Projects() {
               </motion.div>
               </a>
             </div>
-            <div class="col-xl-3 col-sm-6 col-12"> 
-            <a href ="//github.com/srinichrocks/hog" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href ="//github.com/srinichrocks/hog" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -322,9 +322,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Hog Game</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Hog Game</h4>
                     <h6 className='card-subtitle text-primary'>Python</h6>
                     <section className = "card-text text-left text-dark">
                     <p>An interactive game consisting of a simulator and multiple strategies for the dice game hog</p>
@@ -335,9 +335,9 @@ export default function Projects() {
               </motion.div>
               </a>
             </div>
-            <div class="col-xl-3 col-sm-6 col-12"> 
-            <a href = "//github.com/srinichrocks/AntsGame" target = "_blank">
-              <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href = "//github.com/srinichrocks/AntsGame" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -352,9 +352,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title">Ant Game</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Ant Game</h4>
                     <h6 className='card-subtitle text-primary'>Python</h6>
                     <section classNamae = "card-text text-dark text-left">
                     <p>A tower defense game where multiple variations of ants must be purchased and set up appropriately in order to defend the queen ant from the bees</p>
@@ -366,10 +366,10 @@ export default function Projects() {
               </a>
             </div>
             </div>
-            <div class="row mt-3 mx-2 text-center container-fluid">
-            <div class="col-xl-3 col-sm-6 col-12"> 
-            <a href = "//github.com/srinichrocks/BasicReactProject" target = "_blank">
-            <motion.div class="card text-center shadow rounded h-100" whileHover={{
+            <div className="row mt-3 mx-2 text-center container-fluid">
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href = "//github.com/srinichrocks/BasicReactProject" target = "_blank" rel = "noreferrer">
+            <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -384,9 +384,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body text-black">
-                    <h4 class="card-title">Shopping Cart</h4>
+                <div className="card-content">
+                  <div className="card-body text-black">
+                    <h4 className="card-title">Shopping Cart</h4>
                     <h6 className='card-subtitle text-primary'>JavaScript, HTML, CSS, React</h6>
                     <section className='card-text text-dark text-left'>
                     <p>Built a shopping cart web application using React front-end library</p>
@@ -396,8 +396,8 @@ export default function Projects() {
               </motion.div>
             </a>
             </div>
-            <div class="col-xl-3 col-sm-6 col-12"> 
-              <motion.div class="card h-100 shadow rounded" whileHover={{
+            <div className="col-xl-3 col-sm-6 col-12"> 
+              <motion.div className="card h-100 shadow rounded" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
                 rotate: [0,10,-10,0,],
@@ -412,9 +412,9 @@ export default function Projects() {
                 transition: {
                   duration: 0.5
                 }}}>
-                <div class="card-content">
-                  <div class="card-body">
-                    <h4 class="card-title text-center">Mass Shooting</h4>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title text-center">Mass Shooting</h4>
                     <h6 className='card-subtitle text-center text-primary'>Python</h6>
                     <section className = "card-text text-left text-dark">
                     <li>In order to truly figure out the real misconceptions behind mass shootings and the perpetrators of them, I decided to dive hands-on into a kaggle dataset of mass shootings from 2016-2021</li>

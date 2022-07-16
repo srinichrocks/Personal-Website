@@ -2,50 +2,50 @@ import styles from '../../styles/header.module.css'
 export default function Footer() {
     return(
         <section id = "footer" className={styles.grad}>
-<footer class="page-footer font-small blue pt-4 mt-3">
+<footer className="page-footer font-small blue pt-4 mt-3">
 
-  <div class="container-fluid text-center text-md-left">
+  <div className="container-fluid text-center text-md-left">
 
-    <div class="row">
+    <div className="row">
 
-      <div class="col-md-6 mt-md-0 mt-3">
+      <div className="col-md-6 mt-md-0 mt-3">
 
-        <h1 class="text-uppercase text-center text-light">Srinidhi Raghavendran</h1>
+        <h1 className="text-uppercase text-center text-light">Srinidhi Raghavendran</h1>
         <p className="text-center text-light mt-3">Please contact me if you have any questions or concerns</p>
 
       </div>
 
 
-      <div class="col-md-3 mb-md-0 mb-3 text-center">
+      <div className="col-md-3 mb-md-0 mb-3 text-center">
 
-        <h5 class="text-uppercase text-white">Menu</h5>
+        <h5 className="text-uppercase text-white">Menu</h5>
 
-        <ul class="list-unstyled text-white">
+        <ul className="list-unstyled text-white">
           <li>
-            <a href="/projects">Projects</a>
+            <a href="/projects" rel = "noreferrer">Projects</a>
           </li>
           <li>
-            <a href="/experience">Experience</a>
+            <a href="/experience" rel = "noreferrer">Experience</a>
           </li>
           <li>
-            <a href="/contact-me">Contact Me</a>
+            <a href="/contact-me" rel = "noreferrer">Contact Me</a>
           </li>
         </ul>
 
       </div>
-      <div class="col-md-3 mb-md-0 mb-3 text-center">
+      <div className="col-md-3 mb-md-0 mb-3 text-center">
 
-        <h5 class="text-uppercase text-white">Socials</h5>
+        <h5 className="text-uppercase text-white">Socials</h5>
 
-        <ul class="list-unstyled text-white">
+        <ul className="list-unstyled text-white">
           <li>
-            <a href="https://www.linkedin.com/in/srinidhi-raghavendran-a94834164/" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/srinidhi-raghavendran-a94834164/" target="_blank" rel = "noreferrer">Linkedin</a>
           </li>
           <li>
-            <a href="https://github.com/srinichrocks" target="_blank">Github</a>
+            <a href="https://github.com/srinichrocks" target="_blank" rel = "noreferrer">Github</a>
           </li>
           <li>
-            <a href="https://medium.com/@sraghavendran17" target="_blank">Medium</a>
+            <a href="https://medium.com/@sraghavendran17" target="_blank" rel = "noreferrer">Medium</a>
           </li>
         </ul>
 
@@ -57,7 +57,7 @@ export default function Footer() {
   </div>
   
 
-  <div class="footer-copyright text-center py-3 text-white">© 2022 Srinidhi Raghavendran. Created using NextJS.
+  <div className="footer-copyright text-center py-3 text-white">© 2022 Srinidhi Raghavendran. Created using NextJS.
   </div>
 
 </footer>
