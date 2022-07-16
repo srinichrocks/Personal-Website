@@ -77,7 +77,7 @@ export default function Projects() {
                 <div className="card-content">
                   <div className="card-body">
                     <h4 className="card-title">NLP Analysis</h4>
-                    <h6 className='card-subtitle text-primary'>Javascript, Python</h6>
+                    <h6 className='card-subtitle text-primary'>HTML, CSS, Javascript, Python</h6>
                     <section className='card-text text-left text-dark'>
                     <p>Supports text translation, text summarization, sentiment analysis, NER, language detection and even generating random funny jokes</p>
                   </section>
