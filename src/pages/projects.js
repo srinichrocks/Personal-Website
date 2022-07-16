@@ -76,10 +76,10 @@ export default function Projects() {
                 }}}>
                 <div className="card-content">
                   <div className="card-body">
-                    <h4 className="card-title">Utility App</h4>
-                    <h6 className='card-subtitle text-primary'>Java</h6>
+                    <h4 className="card-title">NLP Analysis</h4>
+                    <h6 className='card-subtitle text-primary'>Javascript, Python</h6>
                     <section className='card-text text-left text-dark'>
-                    <p>Supports text translation, text summarization, sentiment analysis, NER, language detection and even dad jokes</p>
+                    <p>Supports text translation, text summarization, sentiment analysis, NER, language detection and even generating random funny jokes</p>
                   </section>
                   <button type = "button" className = "btn btn-dark mt-2" disabledtarget = "_blank">In progress</button>
                   </div>
