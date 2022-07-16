@@ -59,6 +59,7 @@ export default function Projects() {
               </a>
        </div>
        <div className='col-sm-4'>
+       <a href = "https://nlpanalysis.vercel.app/" target = "_blank" rel = "noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
                 position: 'relative',
@@ -79,12 +80,20 @@ export default function Projects() {
                     <h4 className="card-title">NLP Analysis</h4>
                     <h6 className='card-subtitle text-primary'>HTML, CSS, Javascript, Python</h6>
                     <section className='card-text text-left text-dark'>
-                    <p>Supports text translation, text summarization, sentiment analysis, NER, language detection and even generating random funny jokes</p>
+                    <p>Supports:</p>
+                    <ul>
+                      <li>Text Translation</li>
+                      <li>Text Summarization</li>
+                      <li>Sentiment Analysis</li>
+                      <li>Named-entity Recognition</li>
+                      <li>Language Detection</li>
+                      <li>Generating random funny jokes🙂</li>
+                    </ul>
                   </section>
-                  <button type = "button" className = "btn btn-dark mt-2" disabledtarget = "_blank">In progress</button>
                   </div>
                 </div>
               </motion.div>
+              </a>
        </div>
        <div className='col-sm-4'>
        <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank" rel = "noreferrer">
