@@ -435,6 +435,39 @@ export default function Projects() {
                 </div>
               </motion.div>
             </div>
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href = "https://github.com/srinichrocks/data8-projects" target = "_blank" rel = "noreferrer">
+            <motion.div className="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
+                <div className="card-content">
+                  <div className="card-body text-black">
+                    <h4 className="card-title">Classification/Pattern Matching/Data Analysis</h4>
+                    <h6 className='card-subtitle text-primary'>Python(Jupyter Notebook)</h6>
+                    <section className='card-text text-dark text-left'>
+                    <p>First project is focused on analyzing data from gapminder and examining some of the factors influencing population growth and their change over the years</p>
+                    <p>Analysis primarily revolves around Bangladesh but also checked to see whether trends are specific to the countery or is a general pattern worldwide</p>
+                    <p>Second project is centered around investigating trends in different cities' temperature and precipitation over time in order to address potential issues surrounding climate change</p>
+                    <p>Third project involves building a classification model which guesses whether a movie is comedy or thriller and has a practical implementation of a k-nearest-neighbors classifier which is then tested on the data </p>
+                  </section>
+                  </div>
+                </div>
+              </motion.div>
+            </a>
+            </div>
+            
           </div>
           <Footer/>
    </section>
