@@ -25,13 +25,13 @@ export default function Education() {
                     <p>Coursework:</p>
                     <ul>
                         <u>Freshman</u>
-                        <li>CS 61A</li>
-                        <li>LS C5</li>
-                        <li>EECS 16A</li>
-                        <li>MUSIC R1B</li>
-                        <li>CS 61B</li>
-                        <li>EECS 16B</li>
-                        <li>DATA 8</li>
+                        <li>CS 61A - The Structure and Interpretation of Computer Programs</li>
+                        <li>LS C5 - Introduction to Entrepreneurship</li>
+                        <li>EECS 16A - Designing Information Devices and Systems I</li>
+                        <li>MUSIC R1B - Music and Kitsch</li>
+                        <li>CS 61B - Data Structures</li>
+                        <li>EECS 16B - Designing Information Devices and Systems II</li>
+                        <li>DATA 8 - The Foundations of Data Science</li>
                     </ul>
                     </section>
                   </div>
