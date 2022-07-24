@@ -20,7 +20,7 @@ export default function Header() {
           <a className="nav-link text-white" href="/contact-me" rel = "noreferrer">Contact Me</a>
         </li>
         <li className='nav-item'>
-          <a className="nav-link text-white" href="https://drive.google.com/file/d/1V1PW3nxTksdjmNgVpGVyMVnFIfP1Xu1a/view?usp=sharing" target = "_blank" rel = "noreferrer">Resume</a>
+          <a className="nav-link text-white" href="https://drive.google.com/file/d/10UNbvFnA8cnddWJ26TMLsDi4uilI8awh/view?usp=sharing" target = "_blank" rel = "noreferrer">Resume</a>
         </li>
       </ul>
     </div>
