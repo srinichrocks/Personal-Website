@@ -11,7 +11,7 @@ export default function Projects() {
      <p className='h2 text-center mt-2'>Featured Projects</p>
      <hr/>
      <div className='row mt-4 mx-2 text-center'>
-       <div className='col-sm-4'>
+       <div className='col-sm-3'>
       <a href = "//github.com/srinichrocks/Gitlet" target = "_blank" rel = "noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -58,7 +58,7 @@ export default function Projects() {
               </motion.div>
               </a>
        </div>
-       <div className='col-sm-4'>
+       <div className='col-sm-3'>
        <a href = "https://nlpanalysis.vercel.app/" target = "_blank" rel = "noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -95,7 +95,7 @@ export default function Projects() {
               </motion.div>
               </a>
        </div>
-       <div className='col-sm-4'>
+       <div className='col-sm-3'>
        <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank" rel = "noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -120,6 +120,42 @@ export default function Projects() {
         <li key = "kaka1">Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
         <li key = "kaka2">Employed Firebase to store game information for every unique user</li>
       </section>
+                  </div>
+                </div>
+              </motion.div>
+              </a>
+       </div>
+       <div className='col-sm-3'>
+       <a href = "https://github.com/srinichrocks/Mass-Shootings/blob/master/MassShootings.ipynb" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 1
+                }}}>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Analysis of Mass Shootings in the USA</h4>
+                    <h6 className='card-subtitle text-primary'>Python(Jupyter Notebook)</h6>
+                    <section className='card-text text-left text-dark'>
+                    <li>Analyzed the kaggle mass shooting dataset consisting of all the mass shootings from 2016-2021 in the USA.</li> 
+                    <li>Determined outliers, made interesting statistical observations, predicted the rate of growth in casualties in mass shootings and classified shootings based on injuries and deaths.</li> 
+                    <li>Double checked analysis to determine whether these statistical findings are made by chance.</li>
+                    <ul>
+                      <p>Key Findings:</p>
+                      <li>Through linear regression modeling, the number of casualties, death and injuries, in each individual mass shooting have shown a gradual increase as time has progressed from 2016 to 2021.</li>
+                      <li>Through the K-Nearest Neighbors algorithm, there is now a classifier which categorizes mass shootings at 98.99% accuracy into three different levels: Low, Moderate and High</li>
+                    </ul>
+                  </section>
                   </div>
                 </div>
               </motion.div>
@@ -404,36 +440,6 @@ export default function Projects() {
                 </div>
               </motion.div>
             </a>
-            </div>
-            <div className="col-xl-3 col-sm-6 col-12"> 
-              <motion.div className="card h-100 shadow rounded" whileHover={{
-                scale: [1,1.1,1.05],
-                position: 'relative',
-                rotate: [0,10,-10,0,],
-                filter: [
-                  'hue-rotate(0)',
-                  'hue-rotate(360deg)',
-                  'hue-rotate(45deg)',
-                  'hue-rotate(0)',
-                ],
-                background: 'white',
-                zIndex: 1,
-                transition: {
-                  duration: 0.5
-                }}}>
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4 className="card-title text-center">Mass Shooting</h4>
-                    <h6 className='card-subtitle text-center text-primary'>Python</h6>
-                    <section className = "card-text text-left text-dark">
-                    <li>In order to truly figure out the real misconceptions behind mass shootings and the perpetrators of them, I decided to dive hands-on into a kaggle dataset of mass shootings from 2016-2021</li>
-                    <li>I aimed to figure out trends amongst the presence of mental health issues, race as well as the number of people affected in each shooting</li>
-                    <li>Utilized John Denero's notorious "datascience" library(used officially in UC Berkeley's curriculum as well) in order to conduct classification, regression tests and prediction on the dataset</li>
-                    </section>
-                    <button type = "button" className = "btn btn-dark mt-2" disabledtarget = "_blank">In progress</button>
-                  </div>
-                </div>
-              </motion.div>
             </div>
             <div className="col-xl-3 col-sm-6 col-12"> 
             <a href = "https://github.com/srinichrocks/data8-projects" target = "_blank" rel = "noreferrer">
