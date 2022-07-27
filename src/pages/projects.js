@@ -96,36 +96,6 @@ export default function Projects() {
               </a>
        </div>
        <div className='col-sm-3'>
-       <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank" rel = "noreferrer">
-              <motion.div className="card text-center shadow rounded h-100" whileHover={{
-                scale: [1,1.1,1.05],
-                position: 'relative',
-                rotate: [0,10,-10,0,],
-                filter: [
-                  'hue-rotate(0)',
-                  'hue-rotate(360deg)',
-                  'hue-rotate(45deg)',
-                  'hue-rotate(0)',
-                ],
-                background: 'white',
-                zIndex: 1,
-                transition: {
-                  duration: 1
-                }}}>
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4 className="card-title">Alphabet Game</h4>
-                    <h6 className='card-subtitle text-primary'>Java, JavaFX</h6>
-                    <section className='card-text text-left text-dark'>
-        <li key = "kaka1">Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
-        <li key = "kaka2">Employed Firebase to store game information for every unique user</li>
-      </section>
-                  </div>
-                </div>
-              </motion.div>
-              </a>
-       </div>
-       <div className='col-sm-3'>
        <a href = "https://github.com/srinichrocks/Mass-Shootings/blob/master/MassShootings.ipynb" target = "_blank" rel = "noreferrer">
               <motion.div className="card text-center shadow rounded h-100" whileHover={{
                 scale: [1,1.1,1.05],
@@ -156,6 +126,36 @@ export default function Projects() {
                       <li>Through the K-Nearest Neighbors algorithm, there is now a classifier which categorizes mass shootings at 98.99% or more accuracy into three different levels: Low, Moderate and High</li>
                     </ul>
                   </section>
+                  </div>
+                </div>
+              </motion.div>
+              </a>
+       </div>
+       <div className='col-sm-3'>
+       <a href = "//github.com/srinichrocks/AlphabetGame" target = "_blank" rel = "noreferrer">
+              <motion.div className="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 1
+                }}}>
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Alphabet Game</h4>
+                    <h6 className='card-subtitle text-primary'>Java, JavaFX</h6>
+                    <section className='card-text text-left text-dark'>
+        <li key = "kaka1">Fun game for kids(and adults) where you identify letters in order to gain points and earn yourself a spot on the leaderboard</li>
+        <li key = "kaka2">Employed Firebase to store game information for every unique user</li>
+      </section>
                   </div>
                 </div>
               </motion.div>
