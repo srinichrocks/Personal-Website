@@ -153,7 +153,7 @@ export default function Projects() {
                     <ul>
                       <p>Key Findings:</p>
                       <li>Through linear regression modeling, the number of casualties, death and injuries, in each individual mass shooting have shown a gradual increase as time has progressed from 2016 to 2021.</li>
-                      <li>Through the K-Nearest Neighbors algorithm, there is now a classifier which categorizes mass shootings at 98.99% accuracy into three different levels: Low, Moderate and High</li>
+                      <li>Through the K-Nearest Neighbors algorithm, there is now a classifier which categorizes mass shootings at 98.99% or more accuracy into three different levels: Low, Moderate and High</li>
                     </ul>
                   </section>
                   </div>
