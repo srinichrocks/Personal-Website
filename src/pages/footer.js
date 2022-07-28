@@ -25,7 +25,10 @@ export default function Footer() {
             <a href="/projects" rel = "noreferrer">Projects</a>
           </li>
           <li>
-            <a href="/experience" rel = "noreferrer">Experience</a>
+            <a href="/education" rel = "noreferrer">Education</a>
+          </li>
+          <li>
+            <a href="/work" rel = "noreferrer">Work</a>
           </li>
           <li>
             <a href="/contact-me" rel = "noreferrer">Contact Me</a>
