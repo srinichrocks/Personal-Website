@@ -464,7 +464,7 @@ export default function Projects() {
                     <h6 className='card-subtitle text-primary'>Python(Jupyter Notebook)</h6>
                     <section className='card-text text-dark text-left'>
                     <p>First project is focused on analyzing data from gapminder and examining some of the factors influencing population growth and their change over the years</p>
-                    <p>Analysis primarily revolves around Bangladesh but also checked to see whether trends are specific to the countery or is a general pattern worldwide</p>
+                    <p>Analysis primarily revolves around Bangladesh but also checked to see whether trends are specific to the country or is a general pattern worldwide</p>
                     <p>Second project is centered around investigating trends in different cities' temperature and precipitation over time in order to address potential issues surrounding climate change</p>
                     <p>Third project involves building a classification model which guesses whether a movie is comedy or thriller and has a practical implementation of a k-nearest-neighbors classifier which is then tested on the data </p>
                   </section>
