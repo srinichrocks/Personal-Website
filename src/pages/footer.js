@@ -31,6 +31,9 @@ export default function Footer() {
             <a href="/work" rel = "noreferrer">Work</a>
           </li>
           <li>
+            <a href="/blog" rel = "noreferrer">Blog</a>
+          </li>
+          <li>
             <a href="/contact-me" rel = "noreferrer">Contact Me</a>
           </li>
         </ul>

@@ -28,7 +28,6 @@
     "prettier": "^2.1.2",
     "rc-drawer": "^4.1.0",
     "react": "16.13.0",
-    "react-chrono": "^1.17.0",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "16.13.0",
     "react-ga": "^3.1.2",
