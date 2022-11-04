@@ -6,7 +6,7 @@ import Footer from 'pages/footer';
 import { motion } from 'framer-motion';
 
 export default function Banner() {
-  const line1 = "'Hello! I'm Sri, a second-year Computer Science & Data Science undergraduate at the University of California, Berkeley.'";
+  const line1 = "'Hello! I'm Sri, a Computer Science undergraduate student at the University of California, Berkeley.'";
   const line2 = "'Currently, I am interested in generating advanced statistical models to address societal issues through the use of my cs/ds skills. I am also interested in developing full-stack applications through the use of modern front-end libraries like react and next and databases like MongoDB.'"
   const line3 = "'In my free time, I play the guitar, basketball, videogames (and sleep). I also played in the USA minor league for Cricket and was in the top 50 for the USA u19 squad.'";
   const sentence = {
