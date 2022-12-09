@@ -36,12 +36,12 @@ export default function Education() {
                     <ul>
                         <u>Sophomore</u>
                         <li>CS 70 - Discrete Mathematics and Probability Theory</li>
-                        <li>Data 100 - Principles and Techniques of Data Science</li>
+                        <li>DATA 100 - Principles and Techniques of Data Science</li>
                         <li>UGBA 135 - Personal Financial Management</li>
                         <li>AFRICAM 27AC - Lives of Struggle: Minorities in a Majority Culture</li>
                         <li>EECS 126 - Probability and Random Processes</li>
                         <li>CS 61C - Great Ideas in Computer Architecture (Machine Structures)</li>
-                        <li>Data 104 - Human Contexts and Ethics of Data</li>
+                        <li>DATA 104 - Human Contexts and Ethics of Data</li>
                         <li>ASAMST 20A - Introduction to the History of Asians in the United States</li>
                     </ul>
                     </section>
