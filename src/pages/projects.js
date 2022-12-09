@@ -473,8 +473,39 @@ export default function Projects() {
               </motion.div>
             </a>
             </div>
+            <div className="col-xl-3 col-sm-6 col-12"> 
+            <a href = "https://drive.google.com/drive/folders/1LEassgLHcbQIbhMjpa5xoHlvirfbCn7-?usp=sharing" target = "_blank" rel = "noreferrer">
+            <motion.div className="card text-center shadow rounded h-100" whileHover={{
+                scale: [1,1.1,1.05],
+                position: 'relative',
+                rotate: [0,10,-10,0,],
+                filter: [
+                  'hue-rotate(0)',
+                  'hue-rotate(360deg)',
+                  'hue-rotate(45deg)',
+                  'hue-rotate(0)',
+                ],
+                background: 'white',
+                zIndex: 1,
+                transition: {
+                  duration: 0.5
+                }}}>
+                <div className="card-content">
+                  <div className="card-body text-black">
+                    <h4 className="card-title">Unethical House Pricing Analysis</h4>
+                    <h6 className='card-subtitle text-primary'>Python(Jupyter Notebook)</h6>
+                    <section className='card-text text-dark text-left'>
+                    <p>Analyzed an extensive housing data set embedded in a dense social context in Cook County, Illinois to determine unfair house pricing practices</p>
+                    <p>Followed the process of the data science lifecycle and used techniques like one-hot-encoding for EDA, regression modeling, regularization on L1 and L2 loss, train_test splits, and error analysis</p>
+                    </section>
+                  </div>
+                </div>
+              </motion.div>
+            </a>
+            </div>
             
           </div>
+          
           <Footer/>
    </section>
   );
