@@ -19,7 +19,7 @@ export default function Education() {
               <div className="card text-center shadow rounded">
                 <div className="card-content">
                   <div className="card-body">
-                    <h4 className="card-title">Computer Science & Data Science Student</h4>
+                    <h4 className="card-title">Computer Science Student</h4>
                     <h6 className='card-subtitle text-primary'>UC Berkeley</h6>
                     <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
