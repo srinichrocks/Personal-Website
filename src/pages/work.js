@@ -24,10 +24,13 @@ export default function work() {
               </a>
                 </div>
                 <div className='col-6 text-center d-flex align-items-center justify-content-center'>
-                    <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbair.berkeley.edu%2F&psig=AOvVaw121jlACAARELQ7B6EvZqNX&ust=1674269630944000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPit7MaS1fwCFQAAAAAdAAAAABAD" alt = "bair"/>
+                    <img src = "https://bair.berkeley.edu/images/BAIR_Logo_BlueType_Tag.png" alt = "bair"/>
                 </div>
             </div>
             <div className='row mt-4 mx-2'>
+            <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                    <img src = "https://pbs.twimg.com/profile_images/971496839055683585/jW1g90Ux_400x400.jpg" alt = "eecs"/>
+                </div>
                 <div className='col-6 text-center'>
                 <a href = "https://sp23.datastructur.es/" target = "_blank" rel = "noreferrer">
               <div className="card text-center shadow rounded">
@@ -42,9 +45,6 @@ export default function work() {
                 </div>
               </div>
               </a>
-                </div>
-                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
-                    <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fberkeley_eecs&psig=AOvVaw3COHuhO-zcfktJmvPehdCf&ust=1674269742232000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOD7hvyS1fwCFQAAAAAdAAAAABAH" alt = "eecs"/>
                 </div>
             </div>
             <div className='row mt-4 mx-2'>
