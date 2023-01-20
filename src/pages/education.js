@@ -40,9 +40,7 @@ export default function Education() {
                         <li>UGBA 135 - Personal Financial Management</li>
                         <li>AFRICAM 27AC - Lives of Struggle: Minorities in a Majority Culture</li>
                         <li>EECS 126 - Probability and Random Processes</li>
-                        <li>CS 61C - Great Ideas in Computer Architecture (Machine Structures)</li>
-                        <li>DATA 104 - Human Contexts and Ethics of Data</li>
-                        <li>ASAMST 20A - Introduction to the History of Asians in the United States</li>
+                        <li>CS 170 - Efficient Algorithms and Intractable Problems</li>
                     </ul>
                     </section>
                   </div>

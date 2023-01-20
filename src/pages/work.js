@@ -9,6 +9,46 @@ export default function work() {
             <hr/>
             <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>
+                <a href = "https://bair.berkeley.edu/" target = "_blank" rel = "noreferrer">
+              <div className="card text-center shadow rounded">
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Undergraduate ML Student Researcher</h4>
+                    <h6 className='card-subtitle text-primary'>BAIR</h6>
+                    <section className='card-text text-left text-dark'>
+                        <p>Clinical NLP</p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              </a>
+                </div>
+                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                    <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbair.berkeley.edu%2F&psig=AOvVaw121jlACAARELQ7B6EvZqNX&ust=1674269630944000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPit7MaS1fwCFQAAAAAdAAAAABAD" alt = "bair"/>
+                </div>
+            </div>
+            <div className='row mt-4 mx-2'>
+                <div className='col-6 text-center'>
+                <a href = "https://sp23.datastructur.es/" target = "_blank" rel = "noreferrer">
+              <div className="card text-center shadow rounded">
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Academic Intern</h4>
+                    <h6 className='card-subtitle text-primary'>Peritus.ai</h6>
+                    <section className='card-text text-left text-dark'>
+                        <p>Assisting in labs with DSA fundamentals</p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              </a>
+                </div>
+                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                    <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fberkeley_eecs&psig=AOvVaw3COHuhO-zcfktJmvPehdCf&ust=1674269742232000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOD7hvyS1fwCFQAAAAAdAAAAABAH" alt = "eecs"/>
+                </div>
+            </div>
+            <div className='row mt-4 mx-2'>
+                <div className='col-6 text-center'>
                 <a href = "https://www.peritus.ai" target = "_blank" rel = "noreferrer">
               <div className="card text-center shadow rounded">
                 <div className="card-content">
