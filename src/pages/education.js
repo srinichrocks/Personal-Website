@@ -165,20 +165,18 @@ export default function Education() {
                     <section className='card-text text-left text-dark'>
                     <p>Coursework:</p>
                     <ul>
+                    <u>Freshman:</u>
+                    <li>Principles of Business</li>
+                    <li>Literature and Writing</li>
+                    <li>AP Calculus AB</li>
+                    <li>Biology</li>
+                    <li>Spanish 3</li>
                     <u>Sophomore:</u>
                     <li>World History Honors</li>
                     <li>English 10 Honors</li>
                     <li>AP Calculus BC</li>
                     <li>AP Biology</li>
                     <li>Spanish 4(CC Dual Enrollment)</li>
-                    <u>Sophomore:</u>
-                    <li>Principles of Business</li>
-                    <li>Literature and Writing</li>
-                    <li>AP Calculus AB</li>
-                    <li>Biology</li>
-                    <li>Spanish 3</li>
-                    </ul>
-                    <ul>
                     <u>Junior:</u>
                     <li>US History</li>
                     <li>AP English Language and Composition</li>
