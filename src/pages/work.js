@@ -9,12 +9,12 @@ export default function work() {
             <hr/>
             <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>
-                <a href = "https://bair.berkeley.edu/" target = "_blank" rel = "noreferrer">
+                <a href = "https://computationalhealth.berkeley.edu/" target = "_blank" rel = "noreferrer">
               <div className="card text-center shadow rounded">
                 <div className="card-content">
                   <div className="card-body">
                     <h4 className="card-title">Undergraduate ML Student Researcher</h4>
-                    <h6 className='card-subtitle text-primary'>BAIR</h6>
+                    <h6 className='card-subtitle text-primary'>Computational Precision Health</h6>
                     <section className='card-text text-left text-dark'>
                         <p>Clinical NLP</p>
                     </section>
@@ -24,7 +24,7 @@ export default function work() {
               </a>
                 </div>
                 <div className='col-6 text-center d-flex align-items-center justify-content-center'>
-                    <img src = "https://bair.berkeley.edu/images/BAIR_Logo_BlueType_Tag.png" alt = "bair" width="100" height="100"/>
+                    <img src = "https://computationalhealth.ucsf.edu/wp-content/uploads/2022/08/cropped-CPH-logo.png" alt = "bair" width="100" height="50"/>
                 </div>
             </div>
             <div className='row mt-4 mx-2'>
