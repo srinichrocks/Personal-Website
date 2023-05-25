@@ -9,7 +9,7 @@ export default function work() {
             <hr/>
             <div className='row mt-4 mx-2'>
             <div className='col-6 text-center d-flex align-items-center justify-content-center'>
-                    <img src = "https://www.sandc.com/globalassets/sac-electric/site-header/sc_color_logo_co_tagline.png" alt = "s&c"/>
+                    <img src = "https://www.sandc.com/globalassets/sac-electric/site-header/sc_color_logo_co_tagline.png" alt = "s&c" width="200" height="100"/>
                 </div>
                 <div className='col-6 text-center'>
                 <a href = "https://www.sandc.com/" target = "_blank" rel = "noreferrer">
@@ -49,7 +49,7 @@ export default function work() {
             </div>
             <div className='row mt-4 mx-2'>
             <div className='col-6 text-center d-flex align-items-center justify-content-center'>
-                    <img src = "https://pbs.twimg.com/profile_images/971496839055683585/jW1g90Ux_400x400.jpg" alt = "eecs"/>
+                    <img src = "https://pbs.twimg.com/profile_images/971496839055683585/jW1g90Ux_400x400.jpg" alt = "eecs" width="200" height="200"/>
                 </div>
                 <div className='col-6 text-center'>
                 <a href = "https://sp23.datastructur.es/" target = "_blank" rel = "noreferrer">
