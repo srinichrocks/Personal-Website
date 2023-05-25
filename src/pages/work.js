@@ -8,12 +8,32 @@ export default function work() {
             <p className='h2 text-center mt-2'>Work</p>
             <hr/>
             <div className='row mt-4 mx-2'>
+            <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                    <img src = "https://www.sandc.com/globalassets/sac-electric/site-header/sc_color_logo_co_tagline.png" alt = "s&c"/>
+                </div>
+                <div className='col-6 text-center'>
+                <a href = "https://www.sandc.com/" target = "_blank" rel = "noreferrer">
+              <div className="card text-center shadow rounded">
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">SWE Intern</h4>
+                    <h6 className='card-subtitle text-primary'>S&C Electric</h6>
+                    <section className='card-text text-left text-dark'>
+                        <p>Automated CI/CD pipelines using Jenkins, Artifactory, Azure, SonarQube, Dependency Track, Linux, Docker, and Terraform.</p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              </a>
+                </div>
+            </div>
+            <div className='row mt-4 mx-2'>
                 <div className='col-6 text-center'>
                 <a href = "https://computationalhealth.berkeley.edu/" target = "_blank" rel = "noreferrer">
               <div className="card text-center shadow rounded">
                 <div className="card-content">
                   <div className="card-body">
-                    <h4 className="card-title">Undergraduate ML Student Researcher</h4>
+                    <h4 className="card-title">ML Researcher</h4>
                     <h6 className='card-subtitle text-primary'>Computational Precision Health</h6>
                     <section className='card-text text-left text-dark'>
                         <p>Clinical NLP</p>
@@ -24,7 +44,7 @@ export default function work() {
               </a>
                 </div>
                 <div className='col-6 text-center d-flex align-items-center justify-content-center'>
-                    <img src = "https://computationalhealth.ucsf.edu/wp-content/uploads/2022/08/cropped-CPH-logo.png" alt = "bair" width="100" height="50"/>
+                    <img src = "https://computationalhealth.ucsf.edu/wp-content/uploads/2022/08/cropped-CPH-logo.png" alt = "bair" width="200" height="100"/>
                 </div>
             </div>
             <div className='row mt-4 mx-2'>
@@ -53,7 +73,7 @@ export default function work() {
               <div className="card text-center shadow rounded">
                 <div className="card-content">
                   <div className="card-body">
-                    <h4 className="card-title">Full-time Software Engineering Intern</h4>
+                    <h4 className="card-title">SWE Intern</h4>
                     <h6 className='card-subtitle text-primary'>Peritus.ai</h6>
                     <section className='card-text text-left text-dark'>
                         <p>Coded and implemented advanced NLP(a subfield of Machine Learning) models and techniques:</p>
