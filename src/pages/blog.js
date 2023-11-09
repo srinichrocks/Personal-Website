@@ -28,7 +28,7 @@ const Blog = () => {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >
-              <a href={post.link} target="_blank" rel="noreferrer" className="text-decoration-none">
+              <a href={post.link} rel="noreferrer" className="text-decoration-none">
                 <div className="card flex-row align-items-center p-3">
                   <div className="col-md-8">
                     <h4 className="card-title">{post.title}</h4>
