@@ -22,13 +22,12 @@ export default function Education() {
                     <h4 className="card-title">Computer Science Student</h4>
                     <h6 className='card-subtitle text-primary'>UC Berkeley</h6>
                     <section className='card-text text-left text-dark'>
-                    <p>Coursework:</p>
+                    <p>Relevant Coursework:</p>
                     <ul>
                         <u>Freshman</u>
                         <li>CS 61A - The Structure and Interpretation of Computer Programs</li>
                         <li>LS C5 - Introduction to Entrepreneurship</li>
                         <li>EECS 16A - Designing Information Devices and Systems I</li>
-                        <li>MUSIC R1B - Music and Kitsch</li>
                         <li>CS 61B - Data Structures</li>
                         <li>EECS 16B - Designing Information Devices and Systems II</li>
                         <li>DATA 8 - The Foundations of Data Science</li>
@@ -38,9 +37,15 @@ export default function Education() {
                         <li>CS 70 - Discrete Mathematics and Probability Theory</li>
                         <li>DATA 100 - Principles and Techniques of Data Science</li>
                         <li>UGBA 135 - Personal Financial Management</li>
-                        <li>AFRICAM 27AC - Lives of Struggle: Minorities in a Majority Culture</li>
                         <li>EECS 126 - Probability and Random Processes</li>
                         <li>CS 170 - Efficient Algorithms and Intractable Problems</li>
+                    </ul>
+                    <ul>
+                        <u>Junior</u>
+                        <li>CS 61C - Great Ideas in Computer Architecture (Machine Structures)</li>
+                        <li>CS 161 - Computer Security</li>
+                        <li>CS 186 - Introduction to Database Systems</li>
+                        <li>CS 189 - Introduction to Machine Learning</li>
                     </ul>
                     </section>
                   </div>

@@ -50,9 +50,6 @@ export default function Footer() {
           <li>
             <a href="https://github.com/srinichrocks" target="_blank" rel = "noreferrer">Github</a>
           </li>
-          <li>
-            <a href="https://medium.com/@sraghavendran17" target="_blank" rel = "noreferrer">Medium</a>
-          </li>
         </ul>
 
       </div>

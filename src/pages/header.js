@@ -16,12 +16,9 @@ export default function Header() {
         <li className="nav-item">
           <a className="nav-link text-white" href="/work" rel = "noreferrer">Work</a>
         </li>
-        {/* <li className='nav-item'>
-          <a className="nav-link text-white" href="/course-reviews" rel = "noreferrer">Course Reviews</a>
-        </li>
         <li className='nav-item'>
-          <a className="nav-link text-white" href="https://drive.google.com/file/d/1AM0b53GSwDzT2mG9B3t4ELrqs0EA9H8X/view?usp=sharing" target = "_blank" rel = "noreferrer">Resume</a>
-        </li> */}
+          <a className="nav-link text-white" href="/blog" rel = "noreferrer">Blog</a>
+        </li>
         <li className="nav-item">
           <a className="nav-link text-white" href="/contact-me" rel = "noreferrer">Contact Me</a>
         </li>
