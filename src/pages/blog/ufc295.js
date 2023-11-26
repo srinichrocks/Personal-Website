@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../header'; // Update with correct import path
-import Footer from '../footer'; // Update with correct import path
+import Header from '../header'; 
+import Footer from '../footer'; 
 
 const ExamplePost = () => {
   return (

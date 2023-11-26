@@ -11,7 +11,12 @@ const Blog = () => {
       imageUrl: 'https://s.yimg.com/ny/api/res/1.2/X.oKUGAWmmcxSks.Pd5ArQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/en-us/aniin.com/f2e04a105b7c3cf579abf065d96b7b30',
       link: '/blog/ufc295'
     },
-    // ... other blog posts
+    {
+      title: 'UFC 295 Review',
+      date: 'November 15, 2023',
+      imageUrl: 'https://s.yimg.com/ny/api/res/1.2/X.oKUGAWmmcxSks.Pd5ArQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/en-us/aniin.com/f2e04a105b7c3cf579abf065d96b7b30',
+      link: '/blog/ufc295_review'
+    }
   ];
 
   return (
