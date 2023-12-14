@@ -126,6 +126,7 @@ export default function Projects() {
     <section id="projects">
       <Header />
       <p className='h2 text-center mt-2'>Featured Projects</p>
+      <p className='text-center'>School related repos are private...</p>
       <hr />
 
       {Object.entries(projectsByLanguage).map(([language, projects]) => (
