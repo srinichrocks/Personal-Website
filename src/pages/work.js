@@ -8,6 +8,27 @@ export default function work() {
             <p className='h2 text-center mt-2'>Work</p>
             <hr/>
             <div className='row mt-4 mx-2'>
+                <div className='col-6 text-center'>
+                <a href = "https://www.cisco.com/" target = "_blank" rel = "noreferrer">
+              <div className="card text-center shadow rounded">
+                <div className="card-content">
+                  <div className="card-body">
+                    <h4 className="card-title">Technical Marketing Engineer Intern</h4>
+                    <h6 className='card-subtitle text-primary'>Cisco</h6>
+                    <p className='card-date text-muted'>May 2024 - Aug 2024</p>
+                    <section className='card-text text-left text-dark'>
+                    <li>Incoming Summer 2024 intern in San Jose for the Distributed Systems Engineering team</li>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              </a>
+                </div>
+                <div className='col-6 text-center d-flex align-items-center justify-content-center'>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/800px-Cisco_logo_blue_2016.svg.png" alt = "cisco" width="200" height="100"/>
+                </div>
+            </div>
+            <div className='row mt-4 mx-2'>
             <div className='col-6 text-center d-flex align-items-center justify-content-center'>
                     <img src = "https://computationalhealth.ucsf.edu/wp-content/uploads/2022/08/cropped-CPH-logo.png" alt = "bair" width="300" height="100"/>
                 </div>

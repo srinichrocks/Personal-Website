@@ -16,12 +16,12 @@ export default function Header() {
         <li className="nav-item">
           <a className="nav-link text-white" href="/work" rel = "noreferrer">Work</a>
         </li>
-        <li className='nav-item'>
+        {/* <li className='nav-item'>
           <a className="nav-link text-white" href="/blog" rel = "noreferrer">Blog</a>
         </li>
         <li className="nav-item">
           <a className="nav-link text-white" href="/contact-me" rel = "noreferrer">Contact Me</a>
-        </li>
+        </li> */}
       </ul>
     </div>
     </div>

@@ -121,7 +121,7 @@ export default function Education() {
       rotate: [0, 0, 270, 270, 0],
       borderRadius: ["20%", "20%", "50%", "50%", "20%"],
     }}>
-                    <img src = "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ako6mtcdkftdjgkpvcq6" width={200} height = {200} alt = "Foothill College"/>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Foothill_College_logo.svg/1280px-Foothill_College_logo.svg.png" width={500} height = {200} alt = "Foothill College"/>
                 </motion.div>
             </div>
             <div className='row mt-4 mx-2'>
