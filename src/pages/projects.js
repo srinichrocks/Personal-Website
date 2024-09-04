@@ -126,7 +126,26 @@ export default function Projects() {
     <section id="projects">
       <Header />
       <p className='h2 text-center mt-2'>Featured Projects</p>
-      <p className='text-center'>School related repos are private...</p>
+      {/* Clickable box for Computer Vision Projects with dark background and white text */}
+      <motion.div
+        className="cv-projects-box"
+        whileHover={{ scale: 1.05 }}
+        onClick={() => window.location.href = '/computer-vision'}
+        sx={{
+          width: 'calc(100% - 40px)',  // Adjust width with space on left and right
+          padding: '20px',
+          backgroundColor: '#333',  // Dark background color
+          borderRadius: '5px',
+          cursor: 'pointer',
+          textAlign: 'center',
+          margin: '20px auto',  // Center the box and add top/bottom margin
+          boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
+          color: 'white',  // White text color
+          transition: 'all 0.3s ease'
+        }}
+      >
+        <h3>Computer Vision Projects</h3>
+      </motion.div>
       <hr />
 
       {Object.entries(projectsByLanguage).map(([language, projects]) => (
