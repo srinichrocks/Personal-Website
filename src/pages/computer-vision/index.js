@@ -9,10 +9,15 @@ export default function ComputerVision() {
     {
       title: 'Programming Project #1 (proj1)',
       course: 'CS180: Intro to Computer Vision and Computational Photography',
-      description: 'Colorizing the Prokudin-Gorskii photo collection. Implemented image processing techniques to align and create color images from historical glass plate negatives.',
-      detailsPage: '/computer-vision/proj1'  // Replace with the actual route for project details
+      description: 'Colorizing the Prokudin-Gorskii photo collection',
+      detailsPage: '/computer-vision/proj1'
     },
-    // Additional projects can be added here
+    {
+      title: 'Programming Project #2 (proj2)',
+      course: 'CS180: Intro to Computer Vision and Computational Photography',
+      description: 'Fun with Filters and Frequencies!',
+      detailsPage: '/computer-vision/proj2'
+    },
   ];
 
   return (
