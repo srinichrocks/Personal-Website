@@ -6,12 +6,11 @@ import Footer from 'pages/footer';
 import { motion } from 'framer-motion';
 
 export default function Banner() {
-  const line1 = "\"Hello there! My name is Srinidhi, a third-year Computer Science undergraduate at the University of California, Berkeley.\"";
-  const line2 = "\"I am an incoming Technical Marketing Engineer Intern at Cisco Systems for the Summer 2024 season out of the San Jose office.\"";
-  const line3 = "\"My experience and knowledge range from programming fundamentals, networking, security, machine learning, data science, devops and much more.\"";
-  const line4 = "\"Beyond the screen, I am a first degree kukkiwon certified black belt in Taekwondo and train boxing, muay thai and jiu-jitsu at Berkeley Muay Thai and Fitness. My dedication extends to music and sports; I enjoy strumming the guitar, was a minor league player in cricket, and I frequently play basketball. I also enjoy talking NFL and UFC as well as playing their respective video games.\"";
-  const line5 = "\"Feel free to take a gander at my website or reach out using the contact form/emailing me at sraghavendran17@berkeley.edu.\"";
-
+  const line1 = `"Hey! I'm Srinidhi, a senior at UC Berkeley studying Computer Science, graduating in December 2024."`;
+  const line2 = `"I've had the opportunity to intern at a startup, a mid-sized company, and a big tech firm, and also conduct Clinical NLP research for 1.5 years at UC Berkeley which has given me a broad perspective on the tech world. I'm looking forward to joining a company where I can have real ownership and trust in my work."`;
+  const line3 = `"Outside of tech, I'm a big sports enthusiast—I can talk football and UFC all day, and I'm a die-hard Carolina Panthers fan(Keep Pounding)! I also love training in Taekwondo, Muay Thai, and Jiu-Jitsu, and you might catch me playing guitar or shooting hoops when I'm not coding."`;
+  const line4 = `"Feel free to check out my website or drop me a line at sraghavendran17@berkeley.edu. I'm always up for a chat!"`;
+  
 
 
   const sentence = {
@@ -91,14 +90,6 @@ export default function Banner() {
                 )
               })}
               <br/>
-              <br/>
-              {line5.split("").map((char, index)=> {
-                return (
-                  <motion.span key = {char + "-" + index} variants = {letter}>
-                    {char}
-                  </motion.span>
-                )
-              })}
             </motion.h5>
             
             </div>
