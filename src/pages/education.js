@@ -47,6 +47,11 @@ export default function Education() {
                         <li>CS 186 - Introduction to Database Systems</li>
                         <li>CS 189 - Introduction to Machine Learning</li>
                     </ul>
+                    <ul>
+                        <u>Senior(0.5 years)</u>
+                        <li>CS 180 - Intro to Computer Vision and Computational Photography</li>
+                        <li>DATA C104 - Human Contexts and Ethics of Data</li>
+                    </ul>
                     </section>
                   </div>
                 </div>

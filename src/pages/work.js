@@ -17,7 +17,8 @@ export default function work() {
                     <h6 className='card-subtitle text-primary'>Cisco</h6>
                     <p className='card-date text-muted'>May 2024 - Aug 2024</p>
                     <section className='card-text text-left text-dark'>
-                    <li>Incoming Summer 2024 intern in San Jose for the Distributed Systems Engineering team</li>
+                    <li>Cisco Automation Notebooks</li>
+                    <li>Crosswork Network Controller Demo Automation and UI Integration</li>
                     </section>
                   </div>
                 </div>
