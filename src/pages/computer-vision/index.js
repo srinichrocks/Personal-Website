@@ -18,6 +18,12 @@ export default function ComputerVision() {
       description: 'Fun with Filters and Frequencies!',
       detailsPage: '/computer-vision/proj2'
     },
+    {
+      title: 'Programming Project #3 (proj3)',
+      course: 'CS180: Intro to Computer Vision and Computational Photography',
+      description: 'Face Morphing',
+      detailsPage: '/computer-vision/proj3'
+    }
   ];
 
   return (
