@@ -23,6 +23,12 @@ export default function ComputerVision() {
       course: 'CS180: Intro to Computer Vision and Computational Photography',
       description: 'Face Morphing',
       detailsPage: '/computer-vision/proj3'
+    },
+    {
+      title: 'Programming Project #4 (proj4)',
+      course: 'CS180: Intro to Computer Vision and Computational Photography',
+      description: 'Image Warping and Mosaicing',
+      detailsPage: '/computer-vision/proj4'
     }
   ];
 
