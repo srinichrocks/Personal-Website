@@ -32,12 +32,18 @@ export default function Proj4() {
           }}
         >
           <nav>
-            <a href="#overview" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Overview</a>
+            <a href="#overview-part-a" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Overview - Part A</a>
             <a href="#shoot-pictures" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 1: Shoot the Pictures</a>
             <a href="#recover-homographies" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 2: Recover Homographies</a>
             <a href="#warp-images" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 3: Warp the Images</a>
             <a href="#rectification" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 4: Rectification</a>
             <a href="#final-mosaics" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Final Mosaics</a>
+            <a href="#overview-part-b" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Overview - Part B</a>
+            <a href="#detect-features" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 5: Feature Detection</a>
+            <a href="#feature-matching" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 6: Feature Matching</a>
+            <a href="#ransac" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 7: RANSAC</a>
+            <a href="#auto-mosaic" sx={{ display: 'block', marginBottom: '20px', color: 'black', textDecoration: 'none' }}>Part 8: Automatic Mosaic</a>
+
           </nav>
         </aside>
 
@@ -60,8 +66,8 @@ export default function Proj4() {
             <h4>Srinidhi Raghavendran</h4>
           </div>
 
-          <section id="overview" sx={{ marginBottom: '40px', padding: '20px' }}>
-  <h2>Overview</h2>
+          <section id="overview-part-a" sx={{ marginBottom: '40px', padding: '20px' }}>
+  <h2>Overview - Part A</h2>
   <p>
     In this project, I explored various image warping techniques to create mosaics using multiple photographs. The project involved key steps: shooting images, recovering homographies, warping images, and blending them into mosaics. Below, I present the original images for three different scenes: the library, a tile area, and a window.
   </p>
@@ -195,7 +201,6 @@ export default function Proj4() {
                 </p>
             </div>
 
-            {/* Tile Mosaic Point Correspondences */}
             <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
                 <h3>Tile Mosaic - Point Correspondences</h3>
                 <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
@@ -215,7 +220,6 @@ export default function Proj4() {
                 </p>
             </div>
 
-            {/* Window Mosaic Point Correspondences */}
             <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
                 <h3>Window Mosaic - Point Correspondences</h3>
                 <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
@@ -241,7 +245,6 @@ export default function Proj4() {
               After calculating the homographies, I applied the transformations to warp the images. I implemented a function <code>warpImage(im, H)</code> that takes an image and a homography matrix and outputs the warped image. The transformation aligns the image based on the homography to match the perspective of another image. The resulting warped images for the mosaics are displayed below.
             </p>
             <div sx={{ textAlign: 'center' }}>
-              {/* Warped Images */}
               <h3>Warped Images</h3>
               <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
                 <img src='/original_images_cv_4/library/library_warped.png' alt="Warped Library Image" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
@@ -257,7 +260,6 @@ export default function Proj4() {
     Rectification was used to correct the perspective of objects within the images, making them appear frontal. This was achieved by selecting four corner points of a known rectangle and computing a homography matrix that mapped those points to a rectangular shape. Below are the selected points and the rectified results. Check the right part of the image, which has the four rectified points selected as well as the correspondence points.
   </p>
 
-  {/* Rectification Points */}
   <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
     <h3>Rectification Points</h3>
     <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
@@ -268,7 +270,6 @@ export default function Proj4() {
     <p sx={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '10px' }}>Selected Rectification Points for Each Mosaic</p>
   </div>
 
-  {/* Rectified Images */}
   <div sx={{ textAlign: 'center' }}>
     <h3>Rectified Images</h3>
     <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
@@ -289,19 +290,16 @@ export default function Proj4() {
   
   <div sx={{ textAlign: 'center' }}>
     <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
-      {/* Tile Mosaic */}
       <div>
         <img src='/original_images_cv_4/tile_results/tile_mosaic.png' alt="Tile Mosaic" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
         <p sx={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '10px' }}>Tile Mosaic</p>
       </div>
       
-      {/* Window Mosaic */}
       <div>
         <img src='/original_images_cv_4/window_results/window_mosaic.png' alt="Window Mosaic" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
         <p sx={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '10px' }}>Window Mosaic</p>
       </div>
       
-      {/* Library Mosaic */}
       <div>
         <img src='/original_images_cv_4/library/library_mosaic.png' alt="Library Mosaic" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
         <p sx={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '10px' }}>Library Mosaic</p>
@@ -309,7 +307,127 @@ export default function Proj4() {
     </div>
   </div>
 </section>
-<p></p>
+<section id="overview-part-b" sx={{ marginBottom: '40px', padding: '20px' }}>
+            <h2>Overview - Part B</h2>
+            <p>
+              In Part B, I automated the process using feature detection and matching, robust homography estimation with RANSAC, and generated final mosaics without manual intervention. This approach enhanced accuracy and consistency in creating the mosaics.
+            </p>
+          </section>
+
+          <section id="detect-features" sx={{ marginBottom: '40px', padding: '20px' }}>
+  <h2>Part 5: Feature Detection</h2>
+  <p>
+    Harris Corner Detection was used to identify points of interest in each image. These feature points were then used in subsequent steps to match corresponding regions between images.
+  </p>
+  <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
+    <h3>Detected Corners</h3>
+    <div sx={{ display: 'grid', gridTemplateColumns: '1fr', gap: '40px' }}>
+      <div>
+        <h4>Tile Area</h4>
+        <div sx={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+          <img
+            src='/tile_results/tile_1_corners.png'
+            alt="Tile Image 1 Corners"
+            sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }}
+          />
+          <img
+            src='/tile_results/tile_2_corners.png'
+            alt="Tile Image 2 Corners"
+            sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }}
+          />
+        </div>
+      </div>
+
+      <div>
+        <h4>Window</h4>
+        <div sx={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+          <img
+            src='/window_results/window_1_corners.png'
+            alt="Window Image 1 Corners"
+            sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }}
+          />
+          <img
+            src='/window_results/window_2_corners.png'
+            alt="Window Image 2 Corners"
+            sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }}
+          />
+        </div>
+      </div>
+
+      <div>
+        <h4>Library</h4>
+        <div sx={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+          <img
+            src='/library_results/library_1_corners.png'
+            alt="Library Image 1 Corners"
+            sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }}
+          />
+          <img
+            src='/library_results/library_2_corners.png'
+            alt="Library Image 2 Corners"
+            sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <section id="feature-matching" sx={{ marginBottom: '40px', padding: '20px' }}>
+            <h2>Part 6: Feature Matching</h2>
+            <p>
+              After detecting features, I extracted descriptors and matched them between image pairs. The matches were filtered using a ratio test to retain reliable matches.
+            </p>
+            <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
+              <h3>Feature Matches</h3>
+              <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+                <img src='/tile_results/tile_matches.png' alt="Tile Matches" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+                <img src='/window_results/window_matches.png' alt="Window Matches" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+                <img src='/library_results/library_matches.png' alt="Library Matches" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+              </div>
+            </div>
+          </section>
+
+          <section id="ransac" sx={{ marginBottom: '40px', padding: '20px' }}>
+            <h2>Part 7: RANSAC</h2>
+            <p>
+              RANSAC was applied to estimate the homography between images while rejecting outliers. This method ensures that only the most consistent feature matches are used to compute the transformation. I made sure to follow the exact steps stated in the lecture slides.
+            </p>
+            <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
+              <h3>Inliers from RANSAC</h3>
+              <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+                <img src='/tile_results/tile_ransac_inliers.png' alt="Tile RANSAC Inliers" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+                <img src='/window_results/window_ransac_inliers.png' alt="Window RANSAC Inliers" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+                <img src='/library_results/library_ransac_inliers.png' alt="Library RANSAC Inliers" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+              </div>
+            </div>
+          </section>
+
+          <section id="auto-mosaic" sx={{ marginBottom: '40px', padding: '20px' }}>
+            <h2>Part 8: Automatic Mosaic</h2>
+            <p>
+              Using the homographies estimated through RANSAC, I automatically aligned the images to create seamless mosaics. These results demonstrate the effectiveness of feature-based alignment.
+            </p>
+            <div sx={{ textAlign: 'center', marginBottom: '20px' }}>
+              <h3>Automatically Generated Mosaics</h3>
+              <div sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+                <img src='/tile_results/tile_mosaic.png' alt="Tile Automatic Mosaic" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+                <img src='/window_results/window_mosaic.png' alt="Window Automatic Mosaic" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+                <img src='/library_results/library_mosaic.png' alt="Library Automatic Mosaic" sx={{ maxWidth: '300px', maxHeight: '200px', objectFit: 'cover' }} />
+              </div>
+            </div>
+          </section>
+          <section id="coolest-thing" sx={{ marginBottom: '40px', padding: '20px' }}>
+            <h2>Conclusion: Coolest Thing I Learned</h2>
+            <p>
+            One of the most fascinating aspects of this project was understanding how homography transformations work and how they enable us to map one plane to another, essentially aligning images captured from different perspectives. It felt like magic to see how a few carefully selected correspondences between images could allow us to compute a transformation matrix that seamlessly aligns and stitches those images together into a panoramic type photo.
+            </p>
+            <p>
+            Also, implementing the RANSAC algorithm taught me how to make these transformations more robust. RANSAC's ability to automatically identify and exclude outliers from the feature matches,to make sure that only consistent points contribute to the homography estimation, was impressive. It made me appreciate how much of computer vision relies on both precise math and careful handling of imperfect real-world data. 
+            </p>
+          </section>
+
+
 
 
           <Footer />
