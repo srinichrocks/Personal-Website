@@ -6,10 +6,10 @@ import Footer from 'pages/footer';
 import { motion } from 'framer-motion';
 
 export default function Banner() {
-  const line1 = `"Hey! I'm Srinidhi, a senior at UC Berkeley studying Computer Science, graduating in December 2024."`;
-  const line2 = `"I've had the opportunity to intern at a startup, a mid-sized company, and a big tech firm, and also conduct Clinical NLP research for 1.5 years at UC Berkeley which has given me a broad perspective on the tech world. I'm looking forward to joining a company where I can have real ownership and trust in my work."`;
-  const line3 = `"Outside of tech, I'm a big sports enthusiast—I can talk football and UFC all day, and I'm a die-hard Carolina Panthers fan(Keep Pounding)! I also love training in Taekwondo, Muay Thai, and Jiu-Jitsu, and you might catch me playing guitar or shooting hoops when I'm not coding."`;
-  const line4 = `"Feel free to check out my website or drop me a line at sraghavendran17@berkeley.edu. I'm always up for a chat!"`;
+  const line1 = `"Hey! I'm Srinidhi, a senior at UC Berkeley studying Computer Science, graduating in December 2024. I plan to work at Meta post-grad as a Software Engineer!"`;
+  const line2 = `"I've had the opportunity to intern at a startup, a mid-sized company, and a big tech firm, and also conduct Clinical NLP research for 1.5 years at UC Berkeley which has given me a broad perspective on the tech world."`;
+const line3 = `"Outside of tech, I'm a big sports enthusiast, I can talk football and UFC all day, and I'm a die-hard Carolina Panthers fan(Keep Pounding)! I also love training in Muay Thai(doing this for ~1.5 years), Jiu-Jitsu(~0.5 years) and Boxing."`;
+  const line4 = `"Feel free to check out my website or send an email at sraghavendran17@berkeley.edu. I'm always up for a chat!"`;
   
 
 

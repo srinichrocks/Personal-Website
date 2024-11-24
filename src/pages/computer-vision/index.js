@@ -29,7 +29,13 @@ export default function ComputerVision() {
       course: 'CS180: Intro to Computer Vision and Computational Photography',
       description: 'Image Warping and Mosaicing',
       detailsPage: '/computer-vision/proj4'
-    }
+    },
+    {
+      title: 'Programming Project #5 (proj5)',
+      course: 'CS180: Intro to Computer Vision and Computational Photography',
+      description: 'Fun With Diffusion Models!',
+      detailsPage: '/computer-vision/proj5'
+    },
   ];
 
   return (
