@@ -24,12 +24,12 @@ export default function Footer() {
           <li>
             <a href="/projects" rel = "noreferrer">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/education" rel = "noreferrer">Education</a>
           </li>
           <li>
             <a href="/work" rel = "noreferrer">Work</a>
-          </li>
+          </li> */}
           {/* <li>
             <a href="/blog" rel = "noreferrer">Blog</a>
           </li>

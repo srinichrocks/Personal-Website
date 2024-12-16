@@ -10,12 +10,12 @@ export default function Header() {
         <li className="nav-item">
           <a className="nav-link text-white" href="/projects" rel = "noreferrer">Projects</a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link text-white" href="/education" rel = "noreferrer">Education</a>
         </li>
         <li className="nav-item">
           <a className="nav-link text-white" href="/work" rel = "noreferrer">Work</a>
-        </li>
+        </li> */}
         {/* <li className='nav-item'>
           <a className="nav-link text-white" href="/blog" rel = "noreferrer">Blog</a>
         </li>
